@@ -59,14 +59,12 @@
               <li class="active"><a href="index.html"><span>Home</span></a></li>
               <li><a href="blog.html"><span>About us</span></a></li>
               <li class="has-children">
-                <a href="about.html"><span>Services</span></a>
+                <a href="about.html"><span>Hosting</span></a>
                 <ul class="dropdown arrow-top">
                   <li><a href="#">Dedicated</a></li>
                   <li><a href="#">Shared Hosting</a></li>
                   <li><a href="#">Trading Server</a></li>
                   <li><a href="#">Tally on cloud</a></li>
-                  <li><a href="#">Solutions</a></li>
-                  <li><a href="#">SAP Services</a></li>
                   <li class="has-children">
                     <a href="#">VPS</a>
                     <ul class="dropdown">
@@ -78,6 +76,14 @@
                   </li>
                 </ul>
               </li>
+              <li class="has-children">
+                <a href="about.html"><span>Solutions</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="#">Trading Server</a></li>
+                  <li><a href="#">Tally on cloud</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html"><span>SAP Services</span></a></li>
               <li><a href="contact.html"><span>Contact</span></a></li>
             </ul>
           </nav>
@@ -98,21 +104,16 @@
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="true" data-interval="5000">
 
-   
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
- 
-    <div class="carousel-progress">
-      <div class="progress-bar" role="progressbar"></div>
-    </div>
- 
+
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/server-1.jpeg" alt="First Slide" style="width:100%;">
-        
+
       </div>
       <div class="carousel-item">
         <img src="images/server-2.jpeg" alt="Second Slide" style="width:100%;">
@@ -121,7 +122,7 @@
         <img src="images/server-3.jpeg" alt="Third Slide" style="width:100%;">
       </div>
     </div>
- 
+
     <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -130,54 +131,36 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
   </div>
 
+  <script>
+    let currentIndex = 0;
+    const items = document.querySelectorAll('.carousel-item');
+    const progress = document.querySelector('.progress');
 
+    function showNextSlide() {
+      items[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % items.length;
+      items[currentIndex].classList.add('active');
+      updateProgressBar();
+    }
 
-  
-    
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JavaScript -->
-    <script>
-      // When the document is ready
-      document.addEventListener('DOMContentLoaded', function () {
-        // Initialize variables
-        let percent = 0;
-        let progress_bar = document.querySelector('.transition-timer-carousel-progress-bar');
+    function updateProgressBar() {
+      const progressWidth = ((currentIndex + 1) / items.length) * 100;
+      progress.style.width = progressWidth + '%';
+    }
 
-        let progress_crsl = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
-          pause: true
-        });
-
-        // Function to animate the progress bar and change slides
-        function progressBarCarousel() {
-          progress_bar.style.width = percent + '%';
-          percent = percent + 1;
-          if (percent > 100) {
-            percent = 0;
-            progress_crsl.next();
-            progress_bar.style.width = '0';
-          }
-        }
-
-        // Start the progress bar animation
-        var barInterval = setInterval(progressBarCarousel, 30);
-
-        // Pause the progress bar animation on hover
-        progress_crsl._element.addEventListener('mouseenter', function () {
-          clearInterval(barInterval);
-        });
-
-        progress_crsl._element.addEventListener('mouseleave', function () {
-          barInterval = setInterval(progressBarCarousel, 30);
-        });
-      });
-    </script>
+    setInterval(showNextSlide, 6000);
+  </script>
 
 
   <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
-    <div class="container">
+    <div class="container-broder">
       <div class="row">
         <div class="col-12">
           <h1 class="menu-section-heading mb-5">Plan and Pricing</h1>
@@ -186,15 +169,17 @@
         <!-- Pricing Card 1 -->
         <div class="col-12 col-md-4 col-lg-4">
           <div class="shadow menu-item-card p-3 mb-3">
-            <h2 class="menu-card-title">Dedicated</h2>
+            <h2 class="item-box-h2"> Dedicated </h2>
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="pcard">Intel Xeon E3-1240v6 processor</p>
-            <p class="pcard cross">12 GB DDR4 RAM (Dedicated)</p>
-            <p class="pcard">2 x 1 TB Sata Hard Drive</p>
-            <p class="pcard cross">10 TB Premium Bandwidth</p>
-            <p class="pcard-p price">$19.99</p>
+            <p class="item-box">Intel Xeon E3-1240v6 processor</p>
+            <p class="item-box">12 GB DDR4 RAM (Shared)</p>
+            <p class="item-box">2 x 1 TB Sata Hard Drive</p>
+            <p class="item-box">10 TB Premium Bandwidth</p>
+            <p class="item-box">
+            <h3>&#8377;19.99/month</h3>
+            </p>
             <div class="text-center">
               <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
             </div>
@@ -204,15 +189,17 @@
         <!-- Pricing Card 2 -->
         <div class="col-12 col-md-4 col-lg-4">
           <div class="shadow menu-item-card p-3 mb-3">
-            <h2 class="menu-card-title">Shared </h2>
+            <h2 class="item-box-h2"> Shared </h2>
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="pcard">Intel Xeon E3-1240v6 processor</p>
-            <p class="pcard">12 GB DDR4 RAM (Shared)</p>
-            <p class="pcard">2 x 1 TB Sata Hard Drive</p>
-            <p class="pcard cross">10 TB Premium Bandwidth</p>
-            <p class="pcard-p price">$19.99</p>
+            <p class="item-box">Intel Xeon E3-1240v6 processor</p>
+            <p class="item-box">12 GB DDR4 RAM (Shared)</p>
+            <p class="item-box">2 x 1 TB Sata Hard Drive</p>
+            <p class="item-box">10 TB Premium Bandwidth</p>
+            <p class="item-box">
+            <h3>&#8377;19.99/month</h3>
+            </p>
             <div class="text-center">
               <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
             </div>
@@ -222,15 +209,17 @@
         <!-- Pricing Card 3 -->
         <div class="col-12 col-md-4 col-lg-4">
           <div class="shadow menu-item-card p-3 mb-3">
-            <h2 class="menu-card-title">VPS</h2>
+            <h2 class="item-box-h2"> VPS </h2>
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="pcard">Intel Xeon E3-1240v6 processor</p>
-            <p class="pcard">12 GB DDR4 RAM (VPS)</p>
-            <p class="pcard cross">2 x 1 TB Sata Hard Drive</p>
-            <p class="pcard">10 TB Premium Bandwidth</p>
-            <p class="pcard-p price">$19.99</p>
+            <p class="item-box">Intel Xeon E3-1240v6 processor</p>
+            <p class="item-box">12 GB DDR4 RAM (Shared)</p>
+            <p class="item-box">2 x 1 TB Sata Hard Drive</p>
+            <p class="item-box">10 TB Premium Bandwidth</p>
+            <p class="item-box">
+            <h3>&#8377;19.99/month</h3>
+            </p>
             <div class="text-center">
               <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
             </div>
@@ -240,6 +229,8 @@
     </div>
   </div>
 
+  <hr class="featurette-divider">
+  <br>
   <div class="container bg-content1 py-10">
     <div class="row">
       <div class="col-md-6">

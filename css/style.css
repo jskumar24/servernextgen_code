@@ -128,9 +128,9 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu>li>a:hover>span {
-  background: #3fb0d0;
-  color: #000;
-  font-weight: 500;
+  background: #191970;
+  color: #fff;
+  /* font-weight: 500; */
   border-radius: 30px;
   display: inline-block;
 }
@@ -206,7 +206,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active>a {
-  color: #007bff !important;
+  color: #191970 !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li {
@@ -222,8 +222,8 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li>a:hover {
-  background: #3fb0d0;
-  color: #000;
+  background: #191970;
+  color: #fff;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>a {
@@ -247,20 +247,20 @@ a:hover {
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:hover>a,
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:active>a,
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:focus>a {
-  background: #3fb0d0;
+  background: #191970;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover>a,
 .site-navbar .site-navigation .site-menu .has-children:focus>a,
 .site-navbar .site-navigation .site-menu .has-children:active>a {
-  color: #000;
+  color: #fff;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover>a span,
 .site-navbar .site-navigation .site-menu .has-children:focus>a span,
 .site-navbar .site-navigation .site-menu .has-children:active>a span {
-  background: #3fb0d0;
-  color: #000;
+  background: #191970;
+  color: #fff;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -489,6 +489,14 @@ a:hover {
   text-align: center;
 }
 
+.item-box {
+  font-size: 1.1rem;
+}
+
+.item-box-h2 {
+  font-size: 1.5rem;
+}
+
 .menu-item-card {
   background-color: #fff;
   border-radius: 10px;
@@ -502,13 +510,25 @@ a:hover {
   text-align: center;
 }
 
+.menu-item-card button {
+  color: black;
+  border: 2px solid rgb(13, 202, 240);
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.menu-item-card:hover button {
+  background-color: rgb(13, 202, 240);
+}
+
 .menu-item-card:hover {
   /* background-color: #205691;  */
-  background-color: #3fb0d0;
+  background-color: #191970;
   border-radius: 10px;
   border-width: 10px;
   color: #fff;
-
   /* Light blue background on hover */
 }
 
@@ -553,8 +573,8 @@ a:hover {
   color: #000;
   text-align: center;
   position: relative;
-    padding-left: -10px;
-    /* Creates space for the tick */
+  padding-left: -10px;
+  /* Creates space for the tick */
 }
 
 .pcard-p {
@@ -607,7 +627,6 @@ a:hover {
 /* Button Style */
 .buttoneffect12 {
   font-size: 1rem;
-  font-weight: bold;
   color: #080505;
   background-color: #f0eeee;
   border: none;
@@ -619,8 +638,6 @@ a:hover {
 
 .buttoneffect12:hover {
   background-color: #205691;
-  font-weight: bold;
-  color: #fff;
 }
 
 /* Section Background */
