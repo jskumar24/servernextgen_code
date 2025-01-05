@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
-        <p>&copy; 2024 ServerNEXgen, Inc. All rights reserved.</p>
+        <p>&copy; 2025 ServerNEXgen, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="hover-underline-animation" src="images/twitter.png" style="background-color: #fff;" width="24" height="24">
                 <use xlink:href="#twitter" />
