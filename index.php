@@ -1,10 +1,14 @@
+<?php
+// Dynamic server-side content setup if needed
+?>
+
 <!doctype html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
@@ -18,7 +22,7 @@
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css">
 
-  <title>ServerNextGen</title>
+  <title><?php echo 'ServerNEXgen'; ?></title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- <style>
@@ -33,7 +37,7 @@
 </head>
 
 <body>
-
+  <?php include "header.php" ?>
 
   <div class="site-mobile-menu">
     <div class="site-mobile-menu-header">
@@ -46,45 +50,43 @@
 
   <header class="site-navbar" role="banner">
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row align-items-center">
 
         <div class="col-11 col-xl-2">
-          <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">ServerNextGen</a></h1>
+          <h1 class="mb-0 site-logo"><a href="index.php" class="text-white mb-0">ServerNEXgen</a></h1>
         </div>
         <div class="col-12 col-md-10 d-none d-xl-block">
           <nav class="site-navigation position-relative text-right" role="navigation">
 
             <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-              <li class="active"><a href="index.html"><span>Home</span></a></li>
-              <li><a href="blog.html"><span>About us</span></a></li>
+              <li class="active"><a href="index.php"><span>Home</span></a></li>
+              <li><a href="aboutus.php"><span>About us</span></a></li>
               <li class="has-children">
-                <a href="about.html"><span>Hosting</span></a>
+                <a href="index.php"><span>Hosting</span></a>
                 <ul class="dropdown arrow-top">
-                  <li><a href="#">Dedicated</a></li>
-                  <li><a href="#">Shared Hosting</a></li>
+                  <li><a href="dedicated.php">Dedicated</a></li>
+                  <li><a href="sharedhosting.php">Shared Hosting</a></li>
                   <li><a href="#">Trading Server</a></li>
                   <li><a href="#">Tally on cloud</a></li>
                   <li class="has-children">
                     <a href="#">VPS</a>
                     <ul class="dropdown">
                       <li><a href="#">Windows</a></li>
-                      <li><a href="#">Linux</a></li>
-                      <!-- <li><a href="#">Menu Three</a></li>
-                        <li><a href="#">Menu Four</a></li> -->
+                      <li><a href="#">Linux</a></li> 
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="has-children">
-                <a href="about.html"><span>Solutions</span></a>
+                <a href="about.php"><span>Solutions</span></a>
                 <ul class="dropdown arrow-top">
                   <li><a href="#">Trading Server</a></li>
                   <li><a href="#">Tally on cloud</a></li>
                 </ul>
               </li>
-              <li><a href="contact.html"><span>SAP Services</span></a></li>
-              <li><a href="contact.html"><span>Contact</span></a></li>
+              <li><a href="contact.php"><span>SAP Services</span></a></li>
+              <li><a href="contact.php"><span>Contact</span></a></li>
             </ul>
           </nav>
         </div>
@@ -94,10 +96,7 @@
             class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
       </div>
-
-    </div>
-    </div>
-
+    </div> -->
   </header>
 
   <!-- <div class="hero" style="background-image: url('images/hero_1.jpg');"></div> -->
@@ -178,10 +177,10 @@
             <p class="item-box">2 x 1 TB Sata Hard Drive</p>
             <p class="item-box">10 TB Premium Bandwidth</p>
             <p class="item-box">
-            <h3>&#8377;19.99/month</h3>
+            <h3 class="item-box-p">&#8377;500/month</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
+              <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
             </div>
           </div>
         </div>
@@ -198,10 +197,10 @@
             <p class="item-box">2 x 1 TB Sata Hard Drive</p>
             <p class="item-box">10 TB Premium Bandwidth</p>
             <p class="item-box">
-            <h3>&#8377;19.99/month</h3>
+            <h3 class="item-box-p">&#8377;500/month</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
+              <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
             </div>
           </div>
         </div>
@@ -218,10 +217,10 @@
             <p class="item-box">2 x 1 TB Sata Hard Drive</p>
             <p class="item-box">10 TB Premium Bandwidth</p>
             <p class="item-box">
-            <h3>&#8377;19.99/month</h3>
+            <h3 class="item-box-p">&#8377;500/month</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.html"><button class="buttoneffect12">Order Now</button></a>
+              <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
             </div>
           </div>
         </div>
@@ -229,7 +228,7 @@
     </div>
   </div>
 
-   
+
   <br>
   <div class="container-broder2 bg-content1 py-10">
     <div class="row">
@@ -240,8 +239,11 @@
       </div>
       <div class="col-md-6">
         <p class="p-container-broder2-h2">Our Best Features</p>
-        <p class="p-container-broder2-h3"><h4>Why is Server Nexgen the Best for Hosting Services?</h4></p>
-        <p class="p-container-broder2">In the society that has been experiencing technological and globalization, consumers have become more
+        <p class="p-container-broder2-h3">
+        <h4>Why is Server Nexgen the Best for Hosting Services?</h4>
+        </p>
+        <p class="p-container-broder2">In the society that has been experiencing technological and globalization,
+          consumers have become more
           demanding. Consumers nowadays expect fast access to a great number of goods and services available without
           concerning the time period. In response to this emerging market environment, we have preemptively set up a
           24/7
@@ -286,6 +288,9 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/main.js"></script>
+
+  <?php include "footer.php" ?>
+
 </body>
 
 </html>
