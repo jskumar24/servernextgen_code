@@ -218,7 +218,7 @@ a:not([href]):not([tabindex]):focus {
 }
 
 a:not([href]):not([tabindex]):focus {
-  outline: 0;
+  outline: none;
 }
 
 pre,
