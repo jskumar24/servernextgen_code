@@ -614,6 +614,19 @@ pre code {
   margin-left: auto;
 }
 
+.container-defaultpage {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: -10rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background: #464679; */
+  text-align: center;
+background-image: url("../images/2.png");
+}
+
 .hover-underline-animation {
   display: inline-block;
   /* Display inline block */
@@ -663,7 +676,7 @@ pre code {
   padding-bottom: 5px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #e0e5efd0;
+  background-color: #f7f7f7d0;
 }
 .p-container-broder2-h2 {
   font-family: "Open Sans", serif;
@@ -671,6 +684,7 @@ pre code {
   font-weight: 400;
   color: rgb(13, 202, 240);
   text-align: center;
+  padding-top: -10rem;
 }
 .p-container-broder2-h3 {
   font-size: 1.5rem;
@@ -689,7 +703,18 @@ pre code {
   padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #e0e5efd0;
+  background-color: #f7f7f7d0;
+  color: #000;
+}
+.container-broderblankpage {
+  width: 100%;
+  /* padding-top: 25px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* padding-bottom: 25px; */
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #a9b8d7d0;
   color: #000;
 }
 
@@ -701,8 +726,36 @@ pre code {
   /* padding-bottom: 1px; */
   margin-right: auto;
   margin-left: auto;
+  background-color: #505075;
+  color: #000;
+}
+
+.container-broder-default {
+  /* width: 100%; */
+  /* padding-top: 5px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* padding-bottom: 1px; */
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: #505075; */
+  color: #000;
+}
+
+.container-broder-footer {
+  /* width: 100%; */
+  /* padding-top: 5px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* padding-bottom: 1px; */
+  margin-right: auto;
+  margin-left: auto;
   background-color: #191970;
   color: #000;
+}
+
+.container-footer {
+margin: auto;
 }
 
 @media (min-width: 576px) {
@@ -747,6 +800,16 @@ pre code {
   margin-left: -15px;
 }
 
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: #191970;
+}
 
 .no-gutters {
   margin-right: 0;
