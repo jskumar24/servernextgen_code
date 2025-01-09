@@ -26,15 +26,15 @@
 </head>
 
 <body>
-    <?php include "../view/header.php"; ?>
+    <?php include "header.php"; ?>
     <main>
         <div class="container-defaultpage bg-content1 py-10">
             <div class="row">
-                <p class="p-container-broder2-h2 align-items-center">Trading Server</p>
+                <p class="p-container-broder2-h2 align-items-center">VPS - Linux</p> 
             </div>
         </div>
     </main>
-    <?php include "../view/footer.php"; ?>
+    <?php include "footer.php"; ?>
 </body>
 
 </html>

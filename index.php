@@ -38,7 +38,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 </head>
 
 <body>
-  <?php include "./view/header.php" ?>
+  <?php include "header.php" ?>
   <main>
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="true" data-interval="5000">
 
@@ -230,7 +230,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
   </main>
-  <?php include "./view/footer.php" ?>
+  <?php include "footer.php" ?>
 
 </body>
 

@@ -26,23 +26,23 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="container <?php echo ($current_page == 'index.php') ? 'container' : 'container-broder-default'; ?>">
       <div class="row align-items-center ">
         <div class="col-11 col-xl-2">
-          <h1 class="mb-0 site-logo"><a href="../index.php" class="text-white mb-0">ServerNEXgen</a></h1>
+          <h1 class="mb-0 site-logo"><a href="index.php" class="text-white mb-0">ServerNEXgen</a></h1>
         </div>
         <div class="col-12 col-md-10 d-none d-xl-block">
           <nav class="site-navigation position-relative text-right" role="navigation">
             <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-              <li class="active"><a href="../index.php"><span>Home</span></a></li>
-              <li><a href="../view/aboutus.php"><span>About us</span></a></li>
+              <li class="active"><a href="index.php"><span>Home</span></a></li>
+              <li><a href="aboutus.php"><span>About us</span></a></li>
               <li class="has-children">
                 <a href="#"><span>Hosting</span></a>
                 <ul class="dropdown arrow-top">
-                  <li><a href="../view/dedicated.php">Dedicated</a></li>
-                  <li><a href="../view/sharedhosting.php">Shared Hosting</a></li>
+                  <li><a href="dedicated.php">Dedicated</a></li>
+                  <li><a href="sharedhosting.php">Shared Hosting</a></li>
                   <li class="has-children">
                     <a href="#">VPS</a>
                     <ul class="dropdown">
-                      <li><a href="../view/vps_win.php">Windows</a></li>
-                      <li><a href="../view/vps_linux.php">Linux</a></li>
+                      <li><a href="vps_win.php">Windows</a></li>
+                      <li><a href="vps_linux.php">Linux</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -50,12 +50,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
               <li class="has-children">
                 <a href="#"><span>Solutions</span></a>
                 <ul class="dropdown arrow-top">
-                  <li><a href="../view/trading.php">Trading Server</a></li>
-                  <li><a href="../view/tally.php">Tally on cloud</a></li>
+                  <li><a href="trading.php">Trading Server</a></li>
+                  <li><a href="tally.php">Tally on cloud</a></li>
                 </ul>
               </li>
-              <li><a href="../view/sap.php"><span>SAP Services</span></a></li>
-              <li><a href="../view/contact.php"><span>Contact</span></a></li>
+              <li><a href="sap.php"><span>SAP Services</span></a></li>
+              <li><a href="contact.php"><span>Contact</span></a></li>
             </ul>
           </nav>
         </div>

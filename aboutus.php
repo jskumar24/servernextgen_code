@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <?php include "../view/header.php"; ?>
+    <?php include "header.php"; ?>
     <main>
         <div class="container-defaultpage bg-content1 py-10">
             <div class="row">
@@ -63,7 +63,7 @@
             </div>
         </div>
     </main>
-    <?php include "../view/footer.php"; ?>
+    <?php include "footer.php"; ?>
 </body>
 
 </html>
