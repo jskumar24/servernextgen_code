@@ -179,7 +179,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="col-md-6">
           <p class="p-container-broder2-h2">Our Best Features</p>
           <p class="p-container-broder2-h3">
-          <h4>Why is Server Nexgen the Best for Hosting Services?</h4>
+          Why is Server Nexgen the Best for Hosting Services?
           </p>
           <p class="p-container-broder2">In the society that has been experiencing technological and globalization,
             consumers have become more
