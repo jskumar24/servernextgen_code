@@ -28,11 +28,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head> 
+</head>
 
 <body>
 
-<div class="container-broder-footer">
+  <div class="container my-sm-3" style="background: #ffff;">
     <footer class="py-2">
       <div class="row col-6-f">
         <div class="col-6 col-md-2 mb-3">
@@ -55,17 +55,23 @@
         <div class="col-6-f col-md-2 mb-3 px-xl-6">
           <h5 class="footer-h5">Hosting</h5>
           <ul class="nav flex-column">
-            <li class="mb-2"><a href="dedicated.php" class="nav-link-footer hover-underline-animation">Dedicated</a></li>
-            <li class="mb-2"><a href="sharedhosting.php" class="nav-link-footer hover-underline-animation">Shared Hostng</a></li>
-            <li class="mb-2"><a href="vps_win.php" class="nav-link-footer hover-underline-animation">VPS-Windows</a></li>
-            <li class=" mb-2"><a href="vps_linux.php" class="nav-link-footer hover-underline-animation">VPS-Linux</a></li>
+            <li class="mb-2"><a href="dedicated.php" class="nav-link-footer hover-underline-animation">Dedicated</a>
+            </li>
+            <li class="mb-2"><a href="sharedhosting.php" class="nav-link-footer hover-underline-animation">Shared
+                Hostng</a></li>
+            <li class="mb-2"><a href="vps_win.php" class="nav-link-footer hover-underline-animation">VPS-Windows</a>
+            </li>
+            <li class=" mb-2"><a href="vps_linux.php" class="nav-link-footer hover-underline-animation">VPS-Linux</a>
+            </li>
           </ul>
         </div>
         <div class="col-6-f col-md-2 mb-3 px-xl-6">
           <h5 class="footer-h5">Services</h5>
           <ul class="nav flex-column">
-            <li class="mb-2"><a href="trading.php" class="nav-link-footer hover-underline-animation">Trading Server</a></li>
-            <li class="mb-2"><a href="tally.php" class="nav-link-footer hover-underline-animation">Tally on cloud</a></li>
+            <li class="mb-2"><a href="trading.php" class="nav-link-footer hover-underline-animation">Trading Server</a>
+            </li>
+            <li class="mb-2"><a href="tally.php" class="nav-link-footer hover-underline-animation">Tally on cloud</a>
+            </li>
             <li class="mb-2"><a href="sap.php" class="nav-link-footer hover-underline-animation">SAP-Services</a></li>
           </ul>
         </div>
@@ -73,7 +79,7 @@
       <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
         <p>&copy; 2025 ServerNEXgen, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a href="#" class="fa fa-twitter" src="images/icons8-twitter-squared-30.png"></a>
+          <li class="ms-3"><a href="#" class="fa fa-twitter"></a>
             </img>
             </a>
           </li>

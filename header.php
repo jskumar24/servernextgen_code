@@ -23,8 +23,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 <body>
   <header class="site-navbar" role="banner">
-    <div class="container <?php echo ($current_page == 'index.php') ? 'container' : 'container-broder-default'; ?>">
-      <div class="row align-items-center ">
+    <div class="container">
+      <div class="row align-items-center">
         <div class="col-11 col-xl-2">
           <h1 class="mb-0 site-logo"><a href="index.php" class="text-white mb-0">ServerNEXgen</a></h1>
         </div>

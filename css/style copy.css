@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -21,14 +21,9 @@ body:before {
   z-index: 1;
 }
 
-.footer-h5 {
-  font-size: 1.5rem;
-  color: rgb(13, 202, 240); 
-}
-
-.footer-p {
-  font-size: 1rem;
-  color: #000; 
+body.offcanvas-menu:before {
+  opacity: 1;
+  visibility: visible;
 }
 
 main {
@@ -37,11 +32,6 @@ main {
   min-height: 100vh;
   position: relative;
   overflow: visible;
-}
-
-body.offcanvas-menu:before {
-  opacity: 1;
-  visibility: visible;
 }
 
 p {
@@ -83,12 +73,48 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  padding: -1rem;
+  color: white;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  padding: -1rem;
+  color: white;
+}
+
+.fa-linkedin {
+  /* background: #007bb5; */
+  padding: -1rem;
+  color: white;
+}
+
+.fa-instagram {
+  /* background: #125688; */
+  padding: -1rem;
+  color: white;
+}
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
   top: 2rem;
   width: 100%;
+  /* background-color: #141476; */
 }
 
 .site-navbar.transparent {
@@ -101,7 +127,7 @@ a:hover {
   left: 0;
   width: 100%;
 }
- 
+
 .site-navbar .site-logo {
   position: relative;
   left: 0;
@@ -113,7 +139,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .active>a span {
-  /* background: #191970; */
+  /* background: #3c3e5c; */
   color: #fff;
   border-radius: 30px;
   display: inline-block;
@@ -148,6 +174,7 @@ a:hover {
 .site-navbar .site-navigation .site-menu>li>a:hover>span {
   background: #191970;
   color: #fff;
+  /* font-weight: 500; */
   border-radius: 30px;
   display: inline-block;
 }
@@ -496,4 +523,279 @@ a:hover {
 
 .site-mobile-menu .site-nav-wrap[data-class="social"]>li:first-child a {
   padding-left: 15px !important;
+}
+
+/* Section Heading */
+.menu-section-heading {
+  font-family: "Open Sans", serif;
+  font-size: 2.5rem;
+  color: #343a40;
+  text-align: center;
+  padding-top: 0.5em;
+  /* padding-bottom: .1em; */
+}
+
+.footer-h5 {
+  font-size: 1.5rem;
+  color: rgb(13, 202, 240);
+  font-family: "Open Sans", serif;
+}
+
+.footer-p {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Open Sans", serif;
+}
+
+.item-box-p {
+  font-size: 1.5rem;
+  color: rgb(13, 202, 240);
+  font-family: "Open Sans", serif;
+}
+
+.item-box {
+  font-size: 1.1rem;
+  font-family: "Open Sans", serif;
+}
+
+.item-box-h2 {
+  font-size: 1.5rem;
+  font-family: "Open Sans", serif;
+}
+
+.menu-item-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border-width: 10px;
+  /* Default background color */
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */
+  font-family: "Open Sans", serif;
+  font-size: 2.5rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.menu-item-card button {
+  color: black;
+  border: 2px solid rgb(13, 202, 240);
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.menu-item-card:hover button {
+  background-color: rgb(13, 202, 240);
+}
+
+.menu-item-card:hover {
+  /* background-color: #205691;  */
+  background-color: #191970;
+  border-radius: 10px;
+  border-width: 10px;
+  color: #fff;
+  /* Light blue background on hover */
+  
+}
+
+/* Styling the straight line */
+.line-container {
+  display: flex;
+  justify-content: center;
+  /* Centers the line horizontally */
+  margin: 10px;
+  /* Removes any default margin */
+}
+
+.straight-line {
+  display: block;
+  width: 100px;
+  /* Adjust the width of the line as needed */
+  height: 3px;
+  /* Thickness of the line */
+  background-color: #007bff;
+  /* Color of the line */
+  margin: 0;
+  /* Ensures no extra spacing */
+}
+
+/* Card Title */
+.menu-card-title {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  padding-bottom: -100rem;
+}
+
+.menu-card-title:hover {
+  border-radius: 1px;
+}
+
+/* Card Paragraph */
+.pcard {
+  font-size: 1.01rem;
+  color: #000;
+  text-align: center;
+  position: relative;
+  padding-left: -10px;
+  /* Creates space for the tick */
+}
+
+.pcard-p {
+  font-size: 1.01rem;
+  color: #000;
+  text-align: center;
+  position: relative;
+  padding-left: -10px;
+  /* Creates space for the tick */
+}
+
+.pcard::before {
+  content: '\2713';
+  /* Unicode for tick symbol */
+  position: absolute;
+  left: 0;
+  /* Position the tick to the left of the text */
+  color: #0e5430;
+  /* Green tick color */
+  font-size: 1.2rem;
+  /* Adjust tick size */
+  line-height: 1;
+  /* Align tick vertically with the text */
+}
+
+
+/* Red cross */
+.pcard.cross::before {
+  content: '\2717';
+  /* Unicode for red cross */
+  position: absolute;
+  left: 0;
+  /* Position symbol to the left */
+  color: #dc3545;
+  /* Red color for cross */
+  font-size: 1.2rem;
+  /* Adjust symbol size */
+  line-height: 1;
+  /* Align symbol vertically */
+}
+
+
+/* Price Style */
+.pcard-p.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Button Style */
+.buttoneffect12 {
+  font-size: 1rem;
+  color: #080505;
+  background-color: #f0eeee;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 40%;
+  transition: background-color 0.3s ease;
+  /* overflow: hidden; */
+
+}
+
+.buttoneffect12:hover {
+  background-color: #205691;
+}
+
+/* Section Background */
+.wcu-section {
+  background-color: #f8f9fa;
+  /* Light gray background for better readability */
+  padding: 3rem 0;
+  /* Vertical padding */
+}
+
+/* Section Heading */
+.wcu-section-heading {
+  font-family: "Footlight MT Light", serif;
+  font-size: 2.5rem;
+  color: #343a40;
+  /* Dark gray for headings */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Section Description */
+.wcu-section-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #6c757d;
+  /* Subtle gray for paragraph text */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Horizontal Line */
+.hline {
+  width: 50px;
+  height: 2px;
+  background-color: #007bff;
+  /* Blue line for emphasis */
+  margin: 0 auto;
+  /* Center the line */
+}
+
+/* Hover Effect for Paragraphs */
+.wcu-section-description:hover {
+  color: #000;
+  /* Highlight text in blue on hover */
+  /* font-size: small;
+  font-weight: bold;
+  transition: color 0.3s ease; */
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel1 {
+  margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption1 {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel1 .item {
+  height: 400px;
+  background-color: #bbb;
+}
+
+.carousel1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.carousel-buttons1 {
+  width: 100%;
+  color: #666;
+  bottom: 1px;
+}
+
+.carousel-buttons>div {
+  padding: 10px;
+  border: 1px solid #666;
+}
+
+.carousel-buttons1 a {
+  color: #666;
+  display: block;
+  line-height: 30px;
 }

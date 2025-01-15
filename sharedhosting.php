@@ -1,5 +1,20 @@
 <?php
-// Dynamic server-side content setup if needed
+session_start();
+require 'db_connect.php';
+// Dynamic variables can be defined here
+$title = "Admin Panel";
+$userName = "Server NextGen";
+$notificationsCount = 4;
+$unreadMails = 7;
+
+
+// Fetch plans from the database
+$sql = "SELECT * FROM tbl_shared_hosting"; 
+//  where plan_name like 'Enterprise%'";
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+$plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -28,9 +43,48 @@
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-defaultpage bg-content1 py-10">
-            <div class="row">
-                <p class="p-container-broder2-h2 align-items-center">Shared Hosting</p> 
+        <div class="container-image py-5 px-xl-6">
+        </div>
+
+        <div class="container px-1">
+            <!-- <p class="text-left f-4">Shared Hosting</p> -->
+        </div>
+        <div class="container py-5">
+            <h3 class="text-center py-3">Shared Hosting</h3>
+            <div class="table-container">
+                <div class="row row-cols-xl-3 font-weight-bold">
+                    <?php if (!empty($plans)): ?>
+                        <?php foreach ($plans as $row): ?>
+                            <div class="col-12 col-md-2 col-lg-4 table-column">
+                                <div class="shadow-lg mb-3 p-4 item-card">
+                                    <h2 class="text-center" style="color: rgb(214, 214, 214);">
+                                        <?php echo htmlspecialchars($row["plan_name"]); ?></h2>
+                                    <div class="line-container">
+                                        <span class="straight-line"></span>
+                                    </div>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["website_count"]); ?> Website</p>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["harddisk_space"]); ?> Storage Space
+                                    </p>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["bandwidth"]); ?> Bandwith</p>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["databases_count"]); ?> Databases
+                                    </p>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["users_count"]); ?> Users</p>
+                                    <p class="text-center"><?php echo htmlspecialchars($row["email_accounts_count"]); ?> Emails
+                                    </p>
+                                    <p class="text-center">
+                                    <h3 class="text-center f-3" style="color: #0dcaf0;">&#8377;<?php echo htmlspecialchars($row["plan_price"]); ?>/mo
+                                    </h3>
+                                    </p>
+                                    <div class="text-center">
+                                        <a href="Signup.php"><button class="button">Order Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                        <p class="text-center">No results found</p>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </main>

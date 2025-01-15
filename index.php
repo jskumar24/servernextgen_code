@@ -93,83 +93,77 @@ $current_page = basename($_SERVER['PHP_SELF']);
         progress.style.width = progressWidth + '%';
       }
 
-      setInterval(showNextSlide, 6000);
+      setInterval(showNextSlide, 3000);
     </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-4">
+          <h1>Plan and Pricing</h1>
+        </div>
 
-
-    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
-      <div class="container-broder1">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="menu-section-heading mb-5">Plan and Pricing</h1>
-          </div>
-
-          <!-- Pricing Card 1 -->
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="shadow menu-item-card p-3 mb-3">
-              <h2 class="item-box-h2"> Dedicated </h2>
-              <div class="line-container">
-                <span class="straight-line"></span>
-              </div>
-              <p class="item-box">Intel Xeon E3-1240v6 processor</p>
-              <p class="item-box">12 GB DDR4 RAM (Shared)</p>
-              <p class="item-box">2 x 1 TB Sata Hard Drive</p>
-              <p class="item-box">10 TB Premium Bandwidth</p>
-              <p class="item-box">
-              <h3 class="item-box-p">&#8377;500/month</h3>
-              </p>
-              <div class="text-center">
-                <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
-              </div>
+        <!-- Pricing Card 1 -->
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="shadow-lg mb-3 p-4 item-card">
+            <h2 class="text-center"> Dedicated </h2>
+            <div class="line-container">
+              <span class="straight-line"></span>
+            </div>
+            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center">
+            <h3 class="text-center f-3">&#8377;500/mo</h3>
+            </p>
+            <div class="text-center">
+              <a href="Signup.php"><button class="button">Order Now</button></a>
             </div>
           </div>
+        </div>
 
-          <!-- Pricing Card 2 -->
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="shadow menu-item-card p-3 mb-3">
-              <h2 class="item-box-h2"> Shared </h2>
-              <div class="line-container">
-                <span class="straight-line"></span>
-              </div>
-              <p class="item-box">Intel Xeon E3-1240v6 processor</p>
-              <p class="item-box">12 GB DDR4 RAM (Shared)</p>
-              <p class="item-box">2 x 1 TB Sata Hard Drive</p>
-              <p class="item-box">10 TB Premium Bandwidth</p>
-              <p class="item-box">
-              <h3 class="item-box-p">&#8377;500/month</h3>
-              </p>
-              <div class="text-center">
-                <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
-              </div>
+        <!-- Pricing Card 2 -->
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="shadow-lg mb-3 p-4 item-card">
+            <h2 class="text-center"> Shared </h2>
+            <div class="line-container">
+              <span class="straight-line"></span>
+            </div>
+            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center">
+            <h3 class="text-center f-3">&#8377;500/mo</h3>
+            </p>
+            <div class="text-center">
+              <a href="Signup.php"><button class="button">Order Now</button></a>
             </div>
           </div>
+        </div>
 
-          <!-- Pricing Card 3 -->
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="shadow menu-item-card p-3 mb-3">
-              <h2 class="item-box-h2"> VPS </h2>
-              <div class="line-container">
-                <span class="straight-line"></span>
-              </div>
-              <p class="item-box">Intel Xeon E3-1240v6 processor</p>
-              <p class="item-box">12 GB DDR4 RAM (Shared)</p>
-              <p class="item-box">2 x 1 TB Sata Hard Drive</p>
-              <p class="item-box">10 TB Premium Bandwidth</p>
-              <p class="item-box">
-              <h3 class="item-box-p">&#8377;500/month</h3>
-              </p>
-              <div class="text-center">
-                <a href="Signup.php"><button class="buttoneffect12">Order Now</button></a>
-              </div>
+        <!-- Pricing Card 3 -->
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="shadow-lg mb-3 p-4 item-card">
+            <h2 class="text-center"> VPS </h2>
+            <div class="line-container">
+              <span class="straight-line"></span>
+            </div>
+            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center">
+            <h3 class="text-center f-3">&#8377;500/mo</h3>
+            </p>
+            <div class="text-center">
+              <a href="Signup.php"><button class="button">Order Now</button></a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    <br>
-    <div class="container-broder2 bg-content1 py-10">
+    <div class="container py-5 my-sm-4">
       <div class="row">
         <div class="col-md-6">
           <div class="big-image">
@@ -177,11 +171,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
         </div>
         <div class="col-md-6">
-          <p class="p-container-broder2-h2">Our Best Features</p>
-          <p class="p-container-broder2-h3">
-          Why is Server Nexgen the Best for Hosting Services?
+          <p class="text-center f-4">Our Best Features</p>
+          <p class="text-center f-2">
+            Why is Server Nexgen the Best for Hosting Services?
           </p>
-          <p class="p-container-broder2">In the society that has been experiencing technological and globalization,
+          <p class="text-center">In the society that has been experiencing technological and globalization,
             consumers have become more
             demanding. Consumers nowadays expect fast access to a great number of goods and services available without
             concerning the time period. In response to this emerging market environment, we have preemptively set up a
@@ -195,35 +189,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
       </div>
     </div>
-
-    <!-- <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const carousel = document.querySelector('#myCarousel');
-      const progressBar = document.querySelector('.carousel-progress .progress-bar');
-      const interval = carousel.getAttribute('data-interval') || 5000; // Default interval is 5000ms
-
-      // Function to reset and restart the progress bar
-      const resetProgressBar = () => {
-        progressBar.style.transition = 'none'; // Disable transition for reset
-        progressBar.style.width = '0%'; // Reset progress bar width
-
-        setTimeout(() => {
-          progressBar.style.transition = `width ${interval}ms linear`; // Smooth transition
-          progressBar.style.width = '100%'; // Fill the progress bar
-        }, 50); // Slight delay to apply reset
-      };
-
-      // Event listener for the start of slide transition
-      carousel.addEventListener('slide.bs.carousel', () => {
-        resetProgressBar();
-      });
-
-      // Start the progress bar on initial page load
-      resetProgressBar();
-    });
-
-  </script> -->
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

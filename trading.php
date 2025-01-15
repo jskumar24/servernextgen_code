@@ -28,10 +28,11 @@
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-defaultpage bg-content1 py-10">
-            <div class="row">
-                <p class="p-container-broder2-h2 align-items-center">Trading Server</p>
-            </div>
+       <div class="container-image py-5 px-xl-6"> 
+        </div>
+
+        <div class="container px-1">
+             <p class="text-left f-4">Trading Server</p>
         </div>
     </main>
     <?php include "footer.php"; ?>
