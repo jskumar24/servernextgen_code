@@ -46,7 +46,6 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
 
         <div class="container px-1">
-            <!-- <p class="text-left f-4">VPS-Windows</p> -->
         </div>
         <div class="container py-5">
             <h3 class="text-center py-3">VPS Windows Plans</h3>

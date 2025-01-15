@@ -9,7 +9,7 @@ $unreadMails = 7;
 
 
 // Fetch plans from the database
-$sql = "SELECT * FROM tbl_shared_hosting"; 
+$sql = "SELECT * FROM tbl_shared_hosting";
 //  where plan_name like 'Enterprise%'";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
@@ -47,18 +47,18 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
 
         <div class="container px-1">
-            <!-- <p class="text-left f-4">Shared Hosting</p> -->
         </div>
         <div class="container py-5">
             <h3 class="text-center py-3">Shared Hosting</h3>
-            <div class="table-container">
+            <div class="table-container py-5 px-5">
                 <div class="row row-cols-xl-3 font-weight-bold">
                     <?php if (!empty($plans)): ?>
                         <?php foreach ($plans as $row): ?>
                             <div class="col-12 col-md-2 col-lg-4 table-column">
                                 <div class="shadow-lg mb-3 p-4 item-card">
                                     <h2 class="text-center" style="color: rgb(214, 214, 214);">
-                                        <?php echo htmlspecialchars($row["plan_name"]); ?></h2>
+                                        <?php echo htmlspecialchars($row["plan_name"]); ?>
+                                    </h2>
                                     <div class="line-container">
                                         <span class="straight-line"></span>
                                     </div>
@@ -72,7 +72,8 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <p class="text-center"><?php echo htmlspecialchars($row["email_accounts_count"]); ?> Emails
                                     </p>
                                     <p class="text-center">
-                                    <h3 class="text-center f-3" style="color: #0dcaf0;">&#8377;<?php echo htmlspecialchars($row["plan_price"]); ?>/mo
+                                    <h3 class="text-center f-3" style="color: #0dcaf0;">
+                                        &#8377;<?php echo htmlspecialchars($row["plan_price"]); ?>/mo
                                     </h3>
                                     </p>
                                     <div class="text-center">

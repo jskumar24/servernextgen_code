@@ -31,9 +31,9 @@
        <div class="container-image py-5 px-xl-6"> 
         </div>
         <div class="container px-1">
-             <p class="text-left f-4">About</p>
+             <p class="text-left f-4"></p>
         </div>
-        <div class="container">
+        <div class="container py-5">
             <div class="row">
                 <div class="col-md-6">
                     <div class="px-5">
