@@ -45,9 +45,25 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container-image py-5 px-xl-6">
         </div>
 
-        <div class="container px-1">
+        <div class="container py-3 my-sm-4">
+            <div class="row">
+                <img src="images/dedicated-server2.png"></img>
+                <p class="py-5">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated Servers provide
+                    top-tier premium benefits at an unrivaled price with an astounding 99.995% uptime guarantee. Make
+                    that the equipment can still operate safely in the case of a mechanical failure. High security
+                    standards prove safety, complete redundancy and the capability of fault tolerance minimize the risks
+                    of unavailability.</p>
+                <h3>All operating systems are supported:</h3>
+                <p class="py-2">Our premium dedicated servers are perfectly compatible with almost any OS, so if your
+                    business requires robust and scalable hardware, you’ve came to the right place. This compatibility
+                    provides the base to install any operated system desired whether it is any edition of windows or
+                    Linux. In addition, we also offer multiple servers that support varieties of virtualization systems
+                    like VMware ESXi, Microsoft Windows Hypervisor, Kernel-based Virtual Machine, Solus Virtual Machine
+                    Manager, Citrix Hypervisor, and Oracle Solaris Containers. These servers are located on a premium
+                    datacenter in India to ensure it works as expected to safeguard your information.</p>
+            </div>
         </div>
-        <div class="container py-5">
+        <div class="container py-3">
             <h3 class="text-center py-3">Dedicated Servers Plans</h3>
             <div class="table-container">
                 <div class="row row-cols-xl-7 font-weight-bold table-header">
@@ -72,7 +88,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 &#8377;<?php echo htmlspecialchars($row["plan_price"]); ?>
                             </div>
                             <div class="table-column">
-                                <button class="button-div px-0">Order Now</button>
+                                <a href="checkout.php"><button class="button-div px-0">Order Now</button></a>
                             </div>
                         </div>
                     <?php endforeach; ?>

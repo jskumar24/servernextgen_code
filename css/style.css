@@ -28,7 +28,7 @@ body:before {
 
 .footer-p {
   font-size: 1rem;
-  color: #000; 
+  color: #fff; 
 }
 
 main {
@@ -45,6 +45,11 @@ body.offcanvas-menu:before {
 }
 
 p {
+  color: #000;
+  font-weight: 300;
+}
+
+.p-1 {
   color: #b3b3b3;
   font-weight: 300;
 }

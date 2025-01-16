@@ -725,7 +725,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("../images/2.png");
+  background-image: url("../images/inner_banner_element.png");
 }
 
 @media (min-width: 576px) {
@@ -4898,7 +4898,7 @@ input[type="button"].btn-block {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #000;
+  color: #fff;
 }
 
 .hover-underline-animation:after {
@@ -4917,6 +4917,7 @@ input[type="button"].btn-block {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom center;
+  color: #000;
 }
 
 .fa {
@@ -4933,25 +4934,25 @@ input[type="button"].btn-block {
 .fa-facebook {
   /* background: #3B5998; */
   padding: -1rem;
-  color: #000;
+  color: #fff;
 }
 
 .fa-twitter {
   /* background: #55ACEE; */
   padding: -1rem;
-  color: #000;
+  color: #fff;
 }
 
 .fa-linkedin {
   /* background: #007bb5; */
   padding: -1rem;
-  color: #000;
+  color: #fff;
 }
 
 .fa-instagram {
   /* background: #125688; */
   padding: -1rem;
-  color: #000;
+  color: #fff;
 }
 
 /* Styling the straight line */

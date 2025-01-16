@@ -32,7 +32,7 @@
 
 <body>
 
-  <div class="container my-sm-3" style="background: #ffff;">
+  <div class="px-5" style="background: #191970;">
     <footer class="py-2">
       <div class="row col-6-f">
         <div class="col-6 col-md-2 mb-3">
@@ -61,7 +61,7 @@
                 Hostng</a></li>
             <li class="mb-2"><a href="vps_win.php" class="nav-link-footer hover-underline-animation">VPS-Windows</a>
             </li>
-            <li class=" mb-2"><a href="vps_linux.php" class="nav-link-footer hover-underline-animation">VPS-Linux</a>
+            <li class="mb-2"><a href="vps_linux.php" class="nav-link-footer hover-underline-animation">VPS-Linux</a>
             </li>
           </ul>
         </div>

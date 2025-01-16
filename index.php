@@ -108,15 +108,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center p-1">10 TB Premium Bandwidth</p>
             <p class="text-center">
             <h3 class="text-center f-3">&#8377;500/mo</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.php"><button class="button">Order Now</button></a>
+              <a href="checkout.php"><button class="button">Order Now</button></a>
             </div>
           </div>
         </div>
@@ -128,15 +128,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center p-1">10 TB Premium Bandwidth</p>
             <p class="text-center">
             <h3 class="text-center f-3">&#8377;500/mo</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.php"><button class="button">Order Now</button></a>
+              <a href="checkout.php"><button class="button">Order Now</button></a>
             </div>
           </div>
         </div>
@@ -148,15 +148,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="line-container">
               <span class="straight-line"></span>
             </div>
-            <p class="text-center">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center">10 TB Premium Bandwidth</p>
+            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+            <p class="text-center p-1">10 TB Premium Bandwidth</p>
             <p class="text-center">
             <h3 class="text-center f-3">&#8377;500/mo</h3>
             </p>
             <div class="text-center">
-              <a href="Signup.php"><button class="button">Order Now</button></a>
+              <a href="checkout.php"><button class="button">Order Now</button></a>
             </div>
           </div>
         </div>

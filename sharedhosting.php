@@ -50,7 +50,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
         <div class="container py-5">
             <h3 class="text-center py-3">Shared Hosting</h3>
-            <div class="table-container py-5 px-5">
+            <div class=" py-5 px-5">
                 <div class="row row-cols-xl-3 font-weight-bold">
                     <?php if (!empty($plans)): ?>
                         <?php foreach ($plans as $row): ?>
@@ -62,14 +62,14 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <div class="line-container">
                                         <span class="straight-line"></span>
                                     </div>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["website_count"]); ?> Website</p>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["harddisk_space"]); ?> Storage Space
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["website_count"]); ?> Website</p>
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["harddisk_space"]); ?> Storage Space
                                     </p>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["bandwidth"]); ?> Bandwith</p>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["databases_count"]); ?> Databases
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["bandwidth"]); ?> Bandwith</p>
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["databases_count"]); ?> Databases
                                     </p>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["users_count"]); ?> Users</p>
-                                    <p class="text-center"><?php echo htmlspecialchars($row["email_accounts_count"]); ?> Emails
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["users_count"]); ?> Users</p>
+                                    <p class="text-center p-1"><?php echo htmlspecialchars($row["email_accounts_count"]); ?> Emails
                                     </p>
                                     <p class="text-center">
                                     <h3 class="text-center f-3" style="color: #0dcaf0;">
@@ -77,7 +77,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     </h3>
                                     </p>
                                     <div class="text-center">
-                                        <a href="Signup.php"><button class="button">Order Now</button></a>
+                                        <a href="checkout.php"><button class="button">Order Now</button></a>
                                     </div>
                                 </div>
                             </div>
