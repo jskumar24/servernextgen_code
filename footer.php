@@ -50,6 +50,13 @@
           <ul class="nav flex-column">
             <li class="mb-2"><a href="aboutus.php" class="nav-link-footer hover-underline-animation">About</a></li>
             <li class=" mb-2"><a href="contact.php" class="nav-link-footer hover-underline-animation">Contact</a></li>
+            <li class="mb-2"><a href="terms.php" class="nav-link-footer hover-underline-animation">Terms & Conditions</a>
+            </li>
+            <li class="mb-2"><a href="privacy.php" class="nav-link-footer hover-underline-animation">Privacy policy</a>
+            </li>
+            <li class="mb-2"><a href="shipping.php" class="nav-link-footer hover-underline-animation">Shipping & Delivery</a>
+          </li>
+            <li class="mb-2"><a href="refund.php" class="nav-link-footer hover-underline-animation">Refund & Cancellations</a></li>
           </ul>
         </div>
         <div class="col-6-f col-md-2 mb-3 px-xl-6">
