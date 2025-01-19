@@ -39,17 +39,17 @@ $unreadMails = 7;
         </div>
         <div class="container py-3 my-sm-4">
             <div class="row">
-                <h2>Terms and Conditions
+                <h2 style="color: #0087ca;">Terms and Conditions
                 </h2>
                 <hr>
                 <p class="py-2">Before using our services, consumers must read and accept the terms and conditions
                     listed below. However, all parties who do business with Servernexgen are subject to the terms and
                     conditions. We provide our clients with the following services:
                 <ul class="px-5">
-                    <li>Dedicated Hosting</li>
-                    <li>VPS Hosting</li>
-                    <li>Reseller Hosting</li>
-                    <li>Shared Hosting</li>
+                    <li class="py-1">Dedicated Hosting</li>
+                    <li class="py-1">VPS Hosting</li>
+                    <li class="py-1">Reseller Hosting</li>
+                    <li class="py-1">Shared Hosting</li>
                 </ul>
                 </p>
                 <h5>Service Period</h5>
@@ -112,28 +112,28 @@ $unreadMails = 7;
                 <h5>Servernexgen Responsibilities:</h5>
                 <p class="py-2">What we have to do for clients without root or admin access.
                 <ul class="px-5">
-                    <li>
+                    <li class="py-1">
                         Provide, maintain, and continuously keep an eye on the managed hosting server
                     </li>
-                    <li>
+                    <li class="py-1">
                         Track the Managed Hosting Server’s CPU, RAM, and storage usage;
                     </li>
-                    <li>
+                    <li class="py-1">
                         Configure the Managed Hosting Server’s fundamental settings, including the operating system
                         and Servernexgen’s offered apps.
                     </li>
-                    <li>
+                    <li class="py-1">
                         Offer technical assistance for any issues with the service;
                     </li>
-                    <li>
+                    <li class="py-1">
                         Uphold the initial configuration of the Managed Hosting Service and routinely maintain,
                         upgrade, and support the operating system and Servernexgen Provided Applications.
                     </li>
-                    <li>
+                    <li class="py-1">
                         As per Back-up schedule clause 12, provide backup for the operating system settings,
                         Servernexgen provided applications, and file data;
                     </li>
-                    <li>
+                    <li class="py-1">
                         If the Managed Hosting Server’s fault cannot be corrected by Servernexgen, the team will
                         work quickly to resolve it and return the Managed Hosting Server to its pre-fault condition.
                     </li>
@@ -159,25 +159,33 @@ $unreadMails = 7;
                 <h5>Refund Procedure</h5>
                 <p class="py-2">We make an effort to offer top-notch services that satisfy your business needs.
                 <ul class="px-5">
-                    <li>If the customer is not satisfied with our services, we offer a refund if customer initiate the
+                    <li class="py-1">If the customer is not satisfied with our services, we offer a refund if customer
+                        initiate the
                         refund process within 7 days of purchase. Within seven business days following the processing
                         day, the refund will be paid into your bank account.</li>
-                    <li>If you paid with a credit card, we will refund the money to that card using the information you
+                    <li class="py-1">If you paid with a credit card, we will refund the money to that card using the
+                        information you
                         supplied when you signed up for our services. If you paid with a payment gateway, the money will
                         be returned to the same account.</li>
-                    <li>The only people who are eligible for a refund are new account holders. For instance, you are not
+                    <li class="py-1">The only people who are eligible for a refund are new account holders. For
+                        instance, you are not
                         eligible to receive a refund if you registered with us, cancelled your account, and then
                         re-registered on the website or opened a second account with us.</li>
-                    <li>The administrative and installation costs associated with purchased software or domain names are
+                    <li class="py-1">The administrative and installation costs associated with purchased software or
+                        domain names are
                         reduced; however, the full value of the product purchase was not refunded. Requests for refunds
                         are only considered for a period of 7 days after the date of purchase, and the sum is prorated.
                     </li>
-                    <li>There is no refund for taxes that were paid on the software or service. Users can, however,
+                    <li class="py-1">There is no refund for taxes that were paid on the software or service. Users can,
+                        however,
                         request their government to pay their taxes in full.</li>
-                    <li>Users that use the servernexgen.com trial services are not eligible to receive claims.</li>
-                    <li>When users’ services are hindered or prevented from conducting illegal operations like spam,
+                    <li class="py-1">Users that use the servernexgen.com trial services are not eligible to receive
+                        claims.</li>
+                    <li class="py-1">When users’ services are hindered or prevented from conducting illegal operations
+                        like spam,
                         torrents, child porn, etc. on their websites, they are unable to make claims.</li>
-                    <li>Refund requests can be made by users either online through our ticketing system or by email.
+                    <li class="py-1">Refund requests can be made by users either online through our ticketing system or
+                        by email.
                         Requests for service cancellation must be sent from the email address provided at the time of
                         purchase; requests sent from any other email address will be deemed invalid. Past-due requests
                         won’t be taken into consideration.</li>

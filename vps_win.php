@@ -48,7 +48,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <div class="container py-3 my-sm-4">
             <div class="row">
-                <img src="images/windows-vps.png"></img>
+                <div class="table-column"><img src="images/win-vps.gif" width="30%"></img></div>
                 <p class="py-5">Does your current hosting provider stick you for an outside fee for every little thing
                     you add? Struggling to find a Dependable Hosting Partner who offers Add-ons more Economical than
                     anywhere else, Then you must check out ServerNexgen, which provides essential Server Add-ons such as

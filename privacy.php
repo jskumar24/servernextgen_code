@@ -41,9 +41,9 @@ $unreadMails = 7;
 
         <div class="container py-3 my-sm-4">
             <div class="row"> 
-                <h2>Privacy Policy
+                <h2 style="color: #0087ca;">Privacy Policy
                 </h2>
-                <hr>
+                <hr style="color: #0087ca;">
                 <h5>Use of Personal Information</h5>
                 <p class="py-2">Servernexgen makes a strong effort to safeguard and uphold the highest levels of confidentiality with regard to any personally identifiable information you give us or that we obtain from you. We want you to know that we value your privacy greatly. Your email address, zip code, phone number, and other important facts will not be shared, lent, exchanged, sold, or otherwise made available to any third parties without your consent. We have full permission to use the data internally to improve website functionality, create new features, improve customer experience, track your order, and do other offline business operations. The information in our logs is used or disclosed at our discretion.</p>
                 <h5>Personal Information Disclosure</h5>
