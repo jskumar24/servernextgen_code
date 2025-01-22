@@ -49,7 +49,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="row row-cols-xl-2">
                 <div class="table-column"><img src="images/dedicated-server.gif" width="100%"></img></div>
                 <div class="table-column">
-                    <p class="py-1">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated Servers provide
+                    <p class="py-1 text-justify">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated Servers provide
                         top-tier premium benefits at an unrivaled price with an astounding 99.995% uptime guarantee.
                         Make
                         that the equipment can still operate safely in the case of a mechanical failure. High security
@@ -57,7 +57,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         risks
                         of unavailability.</p>
                     <h3>All operating systems are supported:</h3>
-                    <p class="py-1">Our premium dedicated servers are perfectly compatible with almost any OS, so if
+                    <p class="py-1 text-justify">Our premium dedicated servers are perfectly compatible with almost any OS, so if
                         your
                         business requires robust and scalable hardware, you’ve came to the right place. This
                         compatibility

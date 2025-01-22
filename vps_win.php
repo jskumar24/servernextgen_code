@@ -49,7 +49,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container py-3 my-sm-4">
             <div class="row">
                 <div class="table-column"><img src="images/win-vps.gif" width="30%"></img></div>
-                <p class="py-5">Does your current hosting provider stick you for an outside fee for every little thing
+                <p class="py-5 text-justify">Does your current hosting provider stick you for an outside fee for every little thing
                     you add? Struggling to find a Dependable Hosting Partner who offers Add-ons more Economical than
                     anywhere else, Then you must check out ServerNexgen, which provides essential Server Add-ons such as
                     Control Panel, a Choice of Operating Systems to suit User Requirements, Additional Dedicated IPs,
@@ -62,12 +62,12 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     VPS Hosting India Plan that suits their unique needs perfectly.</p>
                 <h3>Our expertise is scalable and easily upgradeable: What Sets Us Apart From Other Hosting Platforms
                 </h3>
-                <p class="py-2">Our Windows Cloud VPS plans are carefully designed to offer the adaptability and
+                <p class="py-2 text-justify">Our Windows Cloud VPS plans are carefully designed to offer the adaptability and
                     scalability required to meet the evolving demands of your company. One of cloud computing's main
                     advantages is its flexibility, particularly in the face of unexpected spikes in demand. You can
                     easily scale your resources with our plans, guaranteeing peak performance and efficiency as your
                     needs increase.</p>
-                <p class="py-2">
+                <p class="py-2 text-justify">
                     Our services provide you with the flexibility to swiftly scale your resources to match the evolving
                     IT requirements of your enterprise. Whether you need to increase or decrease disk space, CPU
                     performance, bandwidth, or RAM, our platform allows you to make these adjustments seamlessly. This
@@ -75,7 +75,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     respond promptly to changing demands, all while maintaining a reliable and efficient IT
                     infrastructure.</p>
                 <h3>Excellent VPS Hardware:</h3>
-                <p class="py-2">For optimal results, it's essential to host your website on a platform that utilizes the
+                <p class="py-2 text-justify">For optimal results, it's essential to host your website on a platform that utilizes the
                     highest-quality hardware available. Server Nexgen employs advanced hardware components along with a
                     robust network infrastructure to provide top-tier Windows VPS servers to our clients. These servers
                     are specifically designed to efficiently handle applications of all types and sizes, including
@@ -83,11 +83,11 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     servers are equipped with Enterprise SSD drives, ensuring impressive performance that exceeds
                     expectations.</p>
                 <h3>Firewall Security</h3>
-                <p class="py-2">
+                <p class="py-2 text-justify">
                     Server NexGen is committed to ensuring the security of our clients' web applications. To achieve
                     this, we have installed a state-of-the-art firewall at our data center gateway to prevent cyber
                     attacks. Our advanced firewall comes with the following features.</p>
-                <p class="py-2">
+                <p class="py-2 text-justify">
                     features:
                     AI-based malware protection
                     Anti-spam
@@ -96,7 +96,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     IPS/IDS
                     SQL injection prevention</p>
                 <h3>Storage and Backups:</h3>
-                <p class="py-2">
+                <p class="py-2 text-justify">
                     With the world entering a more digital phase, it is safe to say that making server backups has
                     become an integral part of our lives due to the time and resources they tend to occupy. Server
                     NexGen has made it our goal to provide a comprehensive, permanent answer on how to manage backups of
@@ -111,7 +111,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     unauthorized people. Server NexGen ensures that your data is not only regularly backed up but also
                     secured with the highest possible standards.</p>
                 <h3>99.995 % Uptime:</h3>
-                <p class="py-2">
+                <p class="py-2 text-justify">
 
                     Every Windows Server Hosting plan offered by Server NexGen in India guarantees an uptime of 99.995%.
                     We are committed to delivering exceptional operational reliability without any risk of service
@@ -123,7 +123,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     continuous service and ensuring dependable IP connectivity.</p>
 
                 <h3>VPS Server Migration:</h3>
-                <p class="py-2">
+                <p class="py-2 text-justify">
 
                     Our VPS hosting services come with a comprehensive and complimentary migration process specifically
                     designed to make your transition as smooth as possible. We understand that moving your entire online

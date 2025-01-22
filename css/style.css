@@ -23,12 +23,12 @@ body:before {
 
 .footer-h5 {
   font-size: 1.5rem;
-  color: rgb(13, 202, 240); 
+  color: rgb(13, 202, 240);
 }
 
 .footer-p {
   font-size: 1rem;
-  color: #fff; 
+  color: #fff;
 }
 
 main {
@@ -37,6 +37,60 @@ main {
   min-height: 100vh;
   position: relative;
   overflow: visible;
+}
+/* Style for the collapsible button */
+.collapsible1 {
+  color: #000; /* Text color */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  background: #fafafa; 
+  border-bottom: none;
+}
+
+/* Change color when active or hovered */
+.active1,
+.collapsible1:hover {
+  color: #191970;
+  font-weight: bold;
+  /* color: #0dcaf0; */
+}
+
+/* Arrow icon for collapsible button */
+.collapsible1:after {
+  content: '\2193';
+  /* content: '\002B'; */
+  /* Plus sign for closed state */
+  color: #000;
+  /* Color for the plus sign */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Change to minus sign when active (open state) */
+.active1:after {
+  content: "\2191";
+  /* content: "\2212";  */
+}
+
+/* Style for the collapsible content */
+.content1 {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  /* border-bottom: 2px solid #191970; */
+  
+}
+/* Additional styling for when the content is expanded */
+.content1 p {
+  margin: 0;
+  /* Remove margin to make it look cleaner */
 }
 
 body.offcanvas-menu:before {
@@ -106,7 +160,7 @@ a:hover {
   left: 0;
   width: 100%;
 }
- 
+
 .site-navbar .site-logo {
   position: relative;
   left: 0;
