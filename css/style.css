@@ -38,8 +38,49 @@ main {
   position: relative;
   overflow: visible;
 }
+
 /* Style for the collapsible button */
-.collapsible1 {
+.collapsible-plus {
+  color: #000;
+  /* Text color */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  background: #fafafa;
+  border-bottom: none;
+}
+
+/* Change color when active or hovered */
+.active-plus,
+.collapsible-plus:hover {
+  color: #191970;
+  font-weight: bold;
+  background: #eeeeee;
+  /* color: #0dcaf0; */
+}
+
+/* Arrow icon for collapsible button */
+.collapsible-plus:after { 
+  content: '\002B';
+  /* Plus sign for closed state */
+  color: #000;
+  /* Color for the plus sign */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Change to minus sign when active (open state) */
+.active-plus:after {
+  content: "\2212";
+  /* content: "\2212";  */
+}
+/* Style for the collapsible button */
+.collapsible-arrow {
   color: #000; /* Text color */
   cursor: pointer;
   padding: 18px;
@@ -53,15 +94,16 @@ main {
 }
 
 /* Change color when active or hovered */
-.active1,
-.collapsible1:hover {
+.active-arrow,
+.collapsible-arrow:hover {
   color: #191970;
   font-weight: bold;
+  background: #eeeeee; 
   /* color: #0dcaf0; */
 }
 
 /* Arrow icon for collapsible button */
-.collapsible1:after {
+.collapsible-arrow:after {
   content: '\2193';
   /* content: '\002B'; */
   /* Plus sign for closed state */
@@ -73,7 +115,7 @@ main {
 }
 
 /* Change to minus sign when active (open state) */
-.active1:after {
+.active-arrow:after {
   content: "\2191";
   /* content: "\2212";  */
 }
@@ -91,6 +133,23 @@ main {
 .content1 p {
   margin: 0;
   /* Remove margin to make it look cleaner */
+}
+
+/* Container for the column layout */
+.container-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows wrapping to next row */
+  gap: 10px;
+  /* Gap between columns */
+}
+
+/* Style for each section container */
+.section1 {
+  flex: 1 1 calc(50% - 20px);
+  /* 50% width minus gap */
+  min-width: 280px;
+  /* Minimum width for each section */
 }
 
 body.offcanvas-menu:before {
