@@ -40,6 +40,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <body>
   <?php include "header.php" ?>
   <main>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="true" data-interval="5000">
 
       <ol class="carousel-indicators">
@@ -52,15 +53,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="carousel-item active">
           <img src="images/test-1.png" alt="First Slide" style="width:100%;">
           <div class="carousel-caption d-none d-xl-inline">
-            <div class="card-car">
-              <div class="card-body-car">
-                <h3 class="card-title-car text-center f-color-car">Dedicated Server</h3>
-                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated
-                  server hosting to drive your Online success
-                  for a low price.</p>
+            <div class="container px-5">
+              <div class="card-car">
+                <div class="card-body-car">
+                  <h3 class="card-title-car text-center f-color-car">Dedicated Server</h3>
+                  <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable
+                    dedicated
+                    server hosting to drive your Online success
+                    for a low price.</p>
+                </div>
               </div>
+              <button class="button-car"> More Details</button>
             </div>
-            <button class="button-car"> More Details</button>
           </div>
         </div>
         <div class="carousel-item">

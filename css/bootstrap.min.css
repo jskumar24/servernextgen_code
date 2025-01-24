@@ -302,7 +302,7 @@ button {
 }
 
 .button-car {
-  width: 9%;
+  width: 12%;
   /* padding: 10px 20px; */
   /* padding-left: 0px; */
   border-radius: 15px;
@@ -310,8 +310,7 @@ button {
   border-color: #0dcaf0;
   transition: background-color 0.5s ease;
   font-size: 1.1rem;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .item-card {
