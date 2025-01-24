@@ -87,7 +87,7 @@
         </div>
       </div>
       <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
-        <p>&copy; 2025 ServerNEXgen, Inc. All rights reserved.</p>
+        <p class="f-color-car">&copy; 2025 ServerNEXgen, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a href="#" class="fa fa-twitter"></a>
             </img>
