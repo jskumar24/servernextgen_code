@@ -53,7 +53,7 @@
 
         <div class="container py-3 my-sm-4" style="background:#f8f9fa">
             <div class="row row-cols-xl-1">
-                <h4 class="text-center px-5 f-3">Our Features</h4> 
+                <h4 class="text-center px-5 f-3 f-color">Our Features</h4> 
                 <div class="collapsible-plus">We Offer Robust & Safe Features</div>
                 <div class="content1">
                     <p class="py-1 text-justify">

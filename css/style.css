@@ -57,9 +57,9 @@ main {
 /* Change color when active or hovered */
 .active-plus,
 .collapsible-plus:hover {
-  color: #191970;
-  font-weight: bold;
-  background: #eeeeee;
+  color: #918484;
+  font-weight: 500;
+  background: #fafafa;
   /* color: #0dcaf0; */
 }
 
@@ -79,6 +79,7 @@ main {
   content: "\2212";
   /* content: "\2212";  */
 }
+
 /* Style for the collapsible button */
 .collapsible-arrow {
   color: #000; /* Text color */
@@ -96,9 +97,9 @@ main {
 /* Change color when active or hovered */
 .active-arrow,
 .collapsible-arrow:hover {
-  color: #191970;
-  font-weight: bold;
-  background: #eeeeee; 
+  color: #37bcce;
+  font-weight: 350;
+  background: #fafafa; 
   /* color: #0dcaf0; */
 }
 

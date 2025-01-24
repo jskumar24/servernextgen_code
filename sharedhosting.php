@@ -49,8 +49,8 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container px-1">
         </div>
         <div class="container py-5">
-            <div class="row row-cols-xl-2">
-                <div class="table-column"><img src="images/web-host.gif" width="70%"></img></div>
+            <div class="row row-cols-xl-2 container-share">
+                <div class="table-column "><img src="images/share-host.png" width="70%"></img></div>
                 <div class="table-column">
                     <p class="py-1 text-justify">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated Servers provide
                         top-tier premium benefits at an unrivaled price with an astounding 99.995% uptime guarantee.

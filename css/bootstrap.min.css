@@ -301,6 +301,19 @@ button {
   transition: background-color 0.5s ease;
 }
 
+.button-car {
+  width: 9%;
+  /* padding: 10px 20px; */
+  /* padding-left: 0px; */
+  border-radius: 15px;
+  height: 10.9%;
+  border-color: #0dcaf0;
+  transition: background-color 0.5s ease;
+  font-size: 1.1rem;
+  text-align: center;
+  
+}
+
 .item-card {
   background-color: #fff;
 }
@@ -342,6 +355,14 @@ button {
 
 .f-5 {
   font-size: 3rem;
+}
+
+.f-color {
+  color: #0dcaf0;
+}
+
+.f-color-car {
+  color: white;
 }
 
 .p-container-broder2-h2 {
@@ -726,6 +747,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   background-image: url("../images/inner_banner_element.png");
+}
+
+.container-share {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("../images/13.png");
+  /* background: #ececec; */
 }
 
 @media (min-width: 576px) {
@@ -7623,7 +7654,15 @@ a.close.disabled {
 }
 
 .carousel-caption {
-  position: absolute;
+position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-40%);
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-wrap: wrap;
+  /* position: absolute;
   right: 15%;
   bottom: 20px;
   left: 15%;
@@ -7631,7 +7670,7 @@ a.close.disabled {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
+  text-align: center; */
 }
 
 @-webkit-keyframes spinner-border {
