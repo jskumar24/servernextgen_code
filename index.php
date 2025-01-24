@@ -51,27 +51,41 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/test-1.png" alt="First Slide" style="width:100%;">
-
           <div class="carousel-caption d-none d-xl-inline">
-            <h3 class="f-color-car">Dedicated Server</h3>
-            <p class=" text-center f-color-car">Secure and scalable dedicated server hosting to drive your Online success for a low price.</p>
+            <div class="card-car">
+              <div class="card-body-car">
+                <h3 class="card-title-car text-center f-color-car">Dedicated Server</h3>
+                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated server hosting to drive your Online success
+              for a low price.</p>
+              </div>
+            </div>
             <button class="button-car"> More Details</button>
           </div>
-
         </div>
         <div class="carousel-item">
           <img src="images/test-2.png" alt="Second Slide" style="width:100%;">
-            <div class="carousel-caption d-none d-xl-inline">
-            <h3 class="f-color-car">Share Webhost</h3>
-            <p class="text-center f-color-car">Secure and scalable dedicated server hosting to drive your Online success for a low price.</p>
+          <div class="carousel-caption d-none d-xl-inline">
+            <div class="card-car">
+              <div class="card-body-car">
+                <h3 class="card-title-car text-center f-color-car">Share Webhost</h3>
+                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated
+                  server hosting
+                  to drive your Online success for a low price.</p>
+              </div>
+            </div>
             <button class="button-car"> More Details</button>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/test111.png" alt="Third Slide" style="width:100%;">
-            <div class="carousel-caption d-none d-xl-inline">
-            <h3 class="f-color-car">VPS</h3>
-            <p class=" text-center f-color-car">Our expertise is scalable and easily upgradeable: What Sets Us Apart From Other Hosting Platforms</p>
+             <div class="carousel-caption d-none d-xl-inline">
+            <div class="card-car">
+              <div class="card-body-car">
+                <h3 class="card-title-car text-center f-color-car">VPS</h3>
+                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Our expertise is scalable and easily upgradeable: What Sets Us Apart From
+              Other Hosting Platforms.</p>
+              </div>
+            </div>
             <button class="button-car"> More Details</button>
           </div>
         </div>
@@ -88,7 +102,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
       <!-- Progress Bar -->
       <div class="progress-bar">
-        <div class="progress"></div>
+        <div class="progress" style="background-color:#191970;"></div>
       </div>
     </div>
 
