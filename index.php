@@ -55,8 +55,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="card-car">
               <div class="card-body-car">
                 <h3 class="card-title-car text-center f-color-car">Dedicated Server</h3>
-                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated server hosting to drive your Online success
-              for a low price.</p>
+                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated
+                  server hosting to drive your Online success
+                  for a low price.</p>
               </div>
             </div>
             <button class="button-car"> More Details</button>
@@ -78,12 +79,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
         <div class="carousel-item">
           <img src="images/test111.png" alt="Third Slide" style="width:100%;">
-             <div class="carousel-caption d-none d-xl-inline">
+          <div class="carousel-caption d-none d-xl-inline">
             <div class="card-car">
               <div class="card-body-car">
                 <h3 class="card-title-car text-center f-color-car">VPS</h3>
-                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Our expertise is scalable and easily upgradeable: What Sets Us Apart From
-              Other Hosting Platforms.</p>
+                <p class="card-text-car text-middle f-color-car" style="text-wrap: wrap;">Our expertise is scalable and
+                  easily upgradeable: What Sets Us Apart From
+                  Other Hosting Platforms.</p>
               </div>
             </div>
             <button class="button-car"> More Details</button>
