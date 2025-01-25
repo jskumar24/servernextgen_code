@@ -63,7 +63,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     for a low price.</p>
                 </div>
               </div>
-              <div class="container px-5"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car"> More Details</button></div>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     to drive your Online success for a low price.</p>
                 </div>
               </div>
-              <div class="container px-5"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car"> More Details</button></div>
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     Other Hosting Platforms.</p>
                 </div>
               </div>
-              <div class="container px-5"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car"> More Details</button></div>
             </div>
           </div>
         </div>
