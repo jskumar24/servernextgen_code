@@ -32,9 +32,9 @@
 
 <body>
 
-  <div class="px-5" style="background: #191970;">
-    <footer class="py-2">
-      <div class="row col-6-f">
+  <div class="container-footer  px-5  py-3">
+    <footer>
+      <div class="row-footer col-6-f">
         <div class="col-6 col-md-2 mb-3">
           <h5 class="footer-h5">ServerNEXgen</h5>
           <p class="footer-p"> Shree Aryavarta Infotech

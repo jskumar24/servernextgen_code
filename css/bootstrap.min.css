@@ -305,11 +305,11 @@ button {
   width: 12%;
   /* padding: 10px 20px; */
   /* padding-left: 0px; */
-  border-radius: 15px;
+  border-radius: 25px;
   height: 10.9%;
   border-color: #0dcaf0;
   transition: background-color 0.5s ease;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;  
 }
 
@@ -728,6 +728,27 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   /* background: #ececec; */
+}
+
+.container-footer {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #274472;
+}
+
+.row-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 80px;
+  padding-left: 80px;
+  padding-right: 10px;
 }
 
 .container1 {
@@ -4946,6 +4967,7 @@ input[type="button"].btn-block {
   transform: scaleX(1);
   transform-origin: bottom center;
   color: #000;
+  /* background-color: #0087ca; */
 }
 
 .fa {
@@ -7433,6 +7455,11 @@ a.close.disabled {
   position: relative;
 }
 
+ .carousel-inner .carousel-caption {
+   opacity: 1;
+ }
+
+
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
@@ -7442,7 +7469,8 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-  background-color: #191970;
+  /* background-color: #191970; */
+  background-color: #274472;
 }
 
 .carousel-inner::after {
@@ -7674,7 +7702,7 @@ position: absolute;
   top: 250px;
   left: 50%;
   transform: translateX(-40%);
-  text-align: center;
+  text-align: left;
   width: 100%;
   color: #fff;
   text-wrap: wrap;
