@@ -208,7 +208,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <div class="row">
         <div class="col-md-6">
           <div class="big-image">
-            <img src="images/3.jpg" alt="..." class="img-fluid">
+            <img src="images/share-host.png" alt="..." class="img-fluid">
           </div>
         </div>
         <div class="col-md-6">
