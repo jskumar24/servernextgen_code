@@ -33,6 +33,78 @@ body:before {
   display: table;
 }
 
+/* Float four columns side by side */
+.column-guarantee {
+  float: left;
+  width: 16.6%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-guarantee {
+  margin: -5px -5px;
+}
+
+/* Clear floats after the columns */
+.row-guarantee:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-guarantee {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card-guarantee {
+
+  padding: 16px;
+  text-align: center;
+}
+
+/* Float four columns side by side */
+.column-guarantee1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-guarantee1 {
+  margin: -5px -5px;
+}
+
+/* Clear floats after the columns */
+.row-guarantee1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-guarantee1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card-guarantee1 {
+
+  padding: 16px;
+  text-align: center;
+}
+
 .footer-h5 {
   /* font-size: 1.5rem; */
   color: rgb(13, 202, 240);

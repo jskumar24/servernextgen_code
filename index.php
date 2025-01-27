@@ -216,10 +216,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
           <div class="col-md-6">
             <!-- <p class="text-center f-4 f-color-car">Our Best Features</p> -->
-            <p class="text-justify f-2 f-color-car">
+            <p class="py-5 text-justify f-2 f-color-car">
               Why is Server Nexgen the Best for Hosting Services?
             </p>
-            <p class="text-justify f-color-car">In the society that has been experiencing technological and
+            <p class=" text-justify f-color-car">In the society that has been experiencing technological and
               globalization,
               consumers have become more
               demanding. Consumers nowadays expect fast access to a great number of goods and services available without
@@ -236,80 +236,102 @@ $current_page = basename($_SERVER['PHP_SELF']);
       </div>
     </div>
 
+
     <div class="container-banner1">
-      <div class="container py-2">
-        <div class="row  align-items-center">
-          <p class="text-center f-3">ServerNEXgen Guarantees</p>
+      <div class="container">
+        <div class="row-guarantee1">
+          <p class="py-2 text-center f-3">ServerNEXgen Guarantees</p>
           <div class="line-container">
             <span class="straight-line"></span>
           </div>
-          <div class="con-gaurantee ">
-            <div class="box-gaurantee  align-items-center">
-              <div class="px-3">
-                <img src="images/moneyback.svg" width="50%" height="30%" alt="..." class="img-fluid align-items-center">
-              </div>
-              <h6 class="py-2 text-left">Money Back Guarantee</h6>
+
+          <div class="column-guarantee1">
+            <div class="card-guarantee1">
+              <img src="images/fast_ssd_server.svg" width="35%" height="30%" alt="..." class="py-2">
+              <h3 class="f-1">Fast SSD Server</h3>
               <p class="text-center">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
             </div>
-            <div class="box-gaurantee">
-              <div class="px-3">
-                <img src="images/27_support.svg" width="50%" height="30%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-3 text-left">24/7 Support</h6>
-              <p class="text-left">Get expert assistance anytime with our round-the-clock customer support.</p>
-            </div>
-            <div class="box-gaurantee">
-              <div class="px-3">
-                <img src="images/cloudtech.svg" width="50%" height="30%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-3 text-left">Cloud Technology</h6>
-              <p class="text-left">Experience unmatched scalability and reliability with cutting-edge cloud
+          </div>
+
+          <div class="column-guarantee1">
+            <div class="card-guarantee1">
+              <img src="images/cloudtech.svg" width="35%" height="30%" alt="..." class="py-2">
+              <h3 class="f-1">Cloud Technology</h3>
+              <p class="text-center">Experience unmatched scalability and reliability with cutting-edge cloud
                 infrastructure.</p>
             </div>
-            <div class="box-gaurantee">
-              <div class="px-3">
-                <img src="images/fast_ssd_server.svg" width="50%" height="30%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-3 text-left">Fast SSD Server</h6>
-              <p class="text-left">Boost performance with ultra-fast SSD servers for lightning-quick load times.</p>
+          </div>
+
+          <div class="column-guarantee1">
+            <div class="card-guarantee1">
+              <img src="images/27_support.svg" width="35%" height="30%" alt="..." class="py-2">
+              <h3 class="f-1">24/7 Support</h3>
+              <p class="text-center">Get expert assistance anytime with our round-the-clock customer support.</p>
             </div>
           </div>
+
+          <div class="column-guarantee1">
+            <div class="card-guarantee1">
+              <img src="images/moneyback.svg" width="25%" height="20%" alt="..." class="py-2">
+              <h3 class="f-1">Money Back Guarantee</h3>
+              <p class="text-center">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
     <div class="container-banner2">
-      <div class="container py-2">
-        <div class="row py-2">
-          <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
+      <div class="row-guarantee">
+
+        <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
         <div class="line-container">
           <span class="straight-line"></span>
         </div>
-          <div class="col-md-2">
-            <img src="images/Free-SSL-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">Free SSL certificate</p>
-          </div>
-          <div class="col-md-2">
-            <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">24/7 support Guarantee</p>
-          </div>
-          <div class="col-md-2">
-            <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">SSD drivers for all plans</p>
-          </div>
-          <div class="col-md-2 px-5">
-            <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="px-3 text-left f-1 f-color-car">Latest speed technologies</p>
-          </div>
-          <div class="col-md-2">
-            <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">The most stable platform</p>
-          </div>
-          <div class="col-md-2">
-            <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">One click install scripts</p>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/Free-SSL-B.svg" width="25%" height="20%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">Free SSL certificate</h3>
           </div>
         </div>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">24/7 support Guarantee</h3>
+          </div>
+        </div>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">SSD drivers for all plans</h3>
+          </div>
+        </div>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">Latest speed technologies</h3>
+          </div>
+        </div>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">The most stable platform</h3>
+          </div>
+        </div>
+
+        <div class="column-guarantee">
+          <div class="card-guarantee">
+            <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1 f-color-car">One click install scripts</h3>
+          </div>
+        </div>
+
       </div>
     </div>
 
