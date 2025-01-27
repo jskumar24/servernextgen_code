@@ -299,7 +299,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
           <div class="col-md-2">
             <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <p class="text-left f-1 f-color-car">Latest speed technologies</p>
+            <p class="px-1 text-left f-1 f-color-car">Latest speed technologies</p>
           </div>
           <div class="col-md-2">
             <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
