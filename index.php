@@ -287,19 +287,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
           <div class="col-md-2">
             <img src="images/Free-SSL-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h7 class="text-left f-color-car">Free SSL certificate</h7>
+            <p class="text-left f-color-car">Free SSL certificate</p>
           </div>
           <div class="col-md-2">
             <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h6 class="text-left f-color-car">24/7 support Guarantee</h6>
+            <p class="text-left f-color-car">24/7 support Guarantee</p>
           </div>
           <div class="col-md-2">
             <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h6 class="text-left f-color-car">SSD drivers for all plans</h6>
+            <p class="text-left f-color-car">SSD drivers for all plans</p>
           </div>
           <div class="col-md-2">
             <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h7 class="text-left f-color-car">Latest speed technologies</h7>
+            <p class="text-left f-color-car">Latest speed technologies</p>
           </div>
           <div class="col-md-2">
             <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
