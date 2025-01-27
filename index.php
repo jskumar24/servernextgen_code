@@ -237,7 +237,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </div>
 
     <div class="container-banner1">
-      <div class="container" style="box-sizing: border-box;">
+      <div class="container py-2">
         <div class="row  align-items-center">
           <p class="text-center f-3">ServerNEXgen Guarantees</p>
           <div class="line-container">
@@ -280,11 +280,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     <div class="container-banner2">
       <div class="container py-2">
-        <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
+        <div class="row py-2">
+          <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
         <div class="line-container">
           <span class="straight-line"></span>
         </div>
-        <div class="row py-5">
           <div class="col-md-2">
             <img src="images/Free-SSL-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
             <h7 class="text-left f-color-car">Free SSL certificate</h7>
@@ -303,11 +303,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
           <div class="col-md-2">
             <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h6 class="text-left f-color-car">The most stable platform</h6>
+            <p class="text-left f-color-car">The most stable platform</p>
           </div>
           <div class="col-md-2">
             <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
-            <h6 class="text-left f-color-car">One click install scripts</h6>
+            <p class="text-left f-color-car">One click install scripts</p>
           </div>
         </div>
       </div>
