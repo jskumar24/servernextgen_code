@@ -55,14 +55,14 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="container px-0 py-0">
               <div class="card-car">
                 <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car">Dedicated Server</h3>
-                  <p class="card-text-car text-left f-color-car" style="text-wrap: wrap;">Secure and scalable
+                  <h3 class="card-title-car text-left f-color-car animated-text-zin">Dedicated Server</h3>
+                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Secure and scalable
                     dedicated
                     server hosting to drive your Online success
                     for a low price.</p>
                 </div>
               </div>
-              <div class="container"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
             </div>
           </div>
         </div>
@@ -72,13 +72,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="container px-0 py-0">
               <div class="card-car">
                 <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car">Share hosting</h3>
-                  <p class="card-text-car text-left f-color-car" style="text-wrap: wrap;">Secure and scalable dedicated
+                  <h3 class="card-title-car text-left f-color-car animated-text-zin">Share hosting</h3>
+                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Secure and scalable dedicated
                     server hosting
                     to drive your Online success for a low price.</p>
                 </div>
               </div>
-              <div class="container"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
             </div>
           </div>
         </div>
@@ -88,13 +88,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="container px-0 py-0">
               <div class="card-car">
                 <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car">VPS</h3>
-                  <p class="card-text-car text-left f-color-car" style="text-wrap: wrap;">Our expertise is scalable and
+                  <h3 class="card-title-car text-left f-color-car animated-text-zin">VPS</h3>
+                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Our expertise is scalable and
                     easily upgradeable: What Sets Us Apart From
                     Other Hosting Platforms.</p>
                 </div>
               </div>
-              <div class="container"><button class="button-car"> More Details</button></div>
+              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
             </div>
           </div>
         </div>
