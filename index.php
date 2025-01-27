@@ -279,48 +279,41 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </div>
 
     <div class="container-banner2">
-       <p class="text-center f-3 f-color-car">Our Best Features</p>
-       <div class="line-container">
-            <span class="straight-line"></span>
-          </div>
-      <div class="container row col-12">
-        <!-- <div class="row row-col-12 align-items-center"> -->          
+      <div class="container py-2">
+        <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
+        <div class="line-container">
+          <span class="straight-line"></span>
+        </div>
+        <div class="row py-5">
           <div class="col-md-2">
-            <img src="images/Free-SSL-B.svg" width="60%" height="25%" alt="..." class="py-3 card-img-top">
+            <img src="images/Free-SSL-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
             <h7 class="text-left f-color-car">Free SSL certificate</h7>
           </div>
           <div class="col-md-2">
-              <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
-            </div>
-            <h6 class="px-5 text-center f-color-car">24/7 support Guarantee</h6>
+            <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
+            <h6 class="text-left f-color-car">24/7 support Guarantee</h6>
           </div>
-          <div class="col-2 ">
-            <div class="">
-              <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="img-fluid">
-            </div>
-            <h6 class="px-5 text-center f-color-car">SSD drivers for all plans</h6>
+          <div class="col-md-2">
+            <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
+            <h6 class="text-left f-color-car">SSD drivers for all plans</h6>
           </div>
-          <div class="col-2 ">
-            <div class="">
-              <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
-            </div>
-            <h6 class="px-5 text-center f-color-car">Latest speed technologies</h6>
+          <div class="col-md-2">
+            <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
+            <h7 class="text-left f-color-car">Latest speed technologies</h7>
           </div>
-          <div class="col-2">
-            <div class="">
-              <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
-            </div>
-            <h6 class="px-3 text-center f-color-car">The most stable platform</h6>
+          <div class="col-md-2">
+            <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
+            <h6 class="text-left f-color-car">The most stable platform</h6>
           </div>
-          <div class="col-2 ">
-            <div class="">
-              <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
-            </div>
-            <h6 class="px-5 text-center f-color-car">One click install scripts</h6>
+          <div class="col-md-2">
+            <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="py-3 card-img-top">
+            <h6 class="text-left f-color-car">One click install scripts</h6>
           </div>
         </div>
-      <!-- </div> -->
+      </div>
     </div>
+
+
     <div class="container-dummy">
       <br>
     </div>
