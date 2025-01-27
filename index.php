@@ -40,7 +40,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <body>
   <?php include "header.php" ?>
   <main>
-
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="true" data-interval="5000">
 
       <ol class="carousel-indicators">
@@ -51,7 +50,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/a.png" alt="First Slide" style="width:100%;">
+          <img src="images/dedicated-hosting.png" alt="First Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
               <div class="card-car">
@@ -68,7 +67,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/b.png" alt="Second Slide" style="width:100%;">
+          <img src="images/shared-hosting.png" alt="Second Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
               <div class="card-car">
@@ -84,7 +83,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/c.png" alt="Third Slide" style="width:100%;">
+          <img src="images/vps-hosting.png" alt="Third Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
               <div class="card-car">
@@ -112,9 +111,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
       </a>
 
       <!-- Progress Bar -->
-      <!-- <div class="progress-bar">
-        <div class="progress" style="background-color:#191970;"></div>
-      </div> -->
+      <div class="progress-bar">
+        <div class="progress" style="background-color:#b3b3b3;"></div>
+      </div>
     </div>
 
     <script>
@@ -136,99 +135,200 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
       setInterval(showNextSlide, 3000);
     </script>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 py-4">
-          <h1>Plan and Pricing</h1>
-        </div>
 
-        <!-- Pricing Card 1 -->
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="shadow-lg mb-3 p-4 item-card">
-            <h2 class="text-center"> Dedicated </h2>
-            <div class="line-container">
-              <span class="straight-line"></span>
-            </div>
-            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center p-1">10 TB Premium Bandwidth</p>
-            <p class="text-center">
-            <h3 class="text-center f-3">&#8377;500/mo</h3>
-            </p>
-            <div class="text-center">
-              <a href="checkout.php"><button class="button">Order Now</button></a>
+    <div class="container-banner1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-4 text-center">
+            <h1>Hosting for Every Website</h1>
+          </div>
+
+          <!-- Pricing Card 1 -->
+          <div class="col-12 col-md-4 col-lg-4 py-4">
+            <div class="shadow-lg mb-3 p-4 item-card">
+              <h2 class="text-center"> Dedicated </h2>
+              <div class="line-container">
+                <span class="straight-line"></span>
+              </div>
+              <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+              <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+              <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+              <p class="text-center p-1">10 TB Premium Bandwidth</p>
+              <p class="text-center">
+              <h3 class="text-center f-3">&#8377;500/mo</h3>
+              </p>
+              <div class="text-center">
+                <a href="checkout.php"><button class="button">Order Now</button></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Pricing Card 2 -->
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="shadow-lg mb-3 p-4 item-card">
-            <h2 class="text-center"> Shared </h2>
-            <div class="line-container">
-              <span class="straight-line"></span>
-            </div>
-            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center p-1">10 TB Premium Bandwidth</p>
-            <p class="text-center">
-            <h3 class="text-center f-3">&#8377;500/mo</h3>
-            </p>
-            <div class="text-center">
-              <a href="checkout.php"><button class="button">Order Now</button></a>
+          <!-- Pricing Card 2 -->
+          <div class="col-12 col-md-4 col-lg-4 py-4">
+            <div class="shadow-lg mb-3 p-4 item-card">
+              <h2 class="text-center"> Shared </h2>
+              <div class="line-container">
+                <span class="straight-line"></span>
+              </div>
+              <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+              <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+              <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+              <p class="text-center p-1">10 TB Premium Bandwidth</p>
+              <p class="text-center">
+              <h3 class="text-center f-3">&#8377;500/mo</h3>
+              </p>
+              <div class="text-center">
+                <a href="checkout.php"><button class="button">Order Now</button></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Pricing Card 3 -->
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="shadow-lg mb-3 p-4 item-card">
-            <h2 class="text-center"> VPS </h2>
-            <div class="line-container">
-              <span class="straight-line"></span>
-            </div>
-            <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
-            <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
-            <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
-            <p class="text-center p-1">10 TB Premium Bandwidth</p>
-            <p class="text-center">
-            <h3 class="text-center f-3">&#8377;500/mo</h3>
-            </p>
-            <div class="text-center">
-              <a href="checkout.php"><button class="button">Order Now</button></a>
+          <!-- Pricing Card 3 -->
+          <div class="col-12 col-md-4 col-lg-4 py-4">
+            <div class="shadow-lg mb-3 p-4 item-card">
+              <h2 class="text-center"> VPS </h2>
+              <div class="line-container">
+                <span class="straight-line"></span>
+              </div>
+              <p class="text-center p-1">Intel Xeon E3-1240v6 processor</p>
+              <p class="text-center p-1">12 GB DDR4 RAM (Shared)</p>
+              <p class="text-center p-1">2 x 1 TB Sata Hard Drive</p>
+              <p class="text-center p-1">10 TB Premium Bandwidth</p>
+              <p class="text-center">
+              <h3 class="text-center f-3">&#8377;500/mo</h3>
+              </p>
+              <div class="text-center">
+                <a href="checkout.php"><button class="button">Order Now</button></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container py-5 my-sm-4">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="big-image">
-            <img src="images/share-host.png" alt="..." class="img-fluid">
+    <div class="container-banner2">
+      <div class="container py-5 my-sm-4">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="big-image">
+              <img src="images/share-host.png" alt="..." class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- <p class="text-center f-4 f-color-car">Our Best Features</p> -->
+            <p class="text-justify f-2 f-color-car">
+              Why is Server Nexgen the Best for Hosting Services?
+            </p>
+            <p class="text-justify f-color-car">In the society that has been experiencing technological and
+              globalization,
+              consumers have become more
+              demanding. Consumers nowadays expect fast access to a great number of goods and services available without
+              concerning the time period. In response to this emerging market environment, we have preemptively set up a
+              24/7
+              support, 365-day a year sales and systems. This kind of accessibility guarantees customers the opportunity
+              to
+              talk to our sales and support teams at their own convenient time and enable them to receive the required
+              help
+              to
+              achieve their business objectives.</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <p class="text-center f-4">Our Best Features</p>
-          <p class="text-center f-2">
-            Why is Server Nexgen the Best for Hosting Services?
-          </p>
-          <p class="text-center">In the society that has been experiencing technological and globalization,
-            consumers have become more
-            demanding. Consumers nowadays expect fast access to a great number of goods and services available without
-            concerning the time period. In response to this emerging market environment, we have preemptively set up a
-            24/7
-            support, 365-day a year sales and systems. This kind of accessibility guarantees customers the opportunity
-            to
-            talk to our sales and support teams at their own convenient time and enable them to receive the required
-            help
-            to
-            achieve their business objectives.</p>
+      </div>
+    </div>
+
+    <div class="container-banner1">
+      <div class="container" style="box-sizing: border-box;">
+        <div class="row  align-items-center">
+          <p class="text-center f-3">ServerNEXgen Guarantees</p>
+          <div class="line-container">
+            <span class="straight-line"></span>
+          </div>
+          <div class="con-gaurantee ">
+            <div class="box-gaurantee  align-items-center">
+              <div class="px-5 py-2">
+                <img src="images/moneyback.svg" width="30%" height="20%" alt="..." class="img-fluid align-items-center">
+              </div>
+              <h6 class="py-2 text-left">Money Back Guarantee</h6>
+              <p class="text-left">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-3">
+                <img src="images/27_support.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-3 text-left">24/7 Support</h6>
+              <p class="text-left">Get expert assistance anytime with our round-the-clock customer support.</p>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-3">
+                <img src="images/cloudtech.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-3 text-left">Cloud Technology</h6>
+              <p class="text-left">Experience unmatched scalability and reliability with cutting-edge cloud
+                infrastructure.</p>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-3">
+                <img src="images/fast_ssd_server.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-3 text-left">Fast SSD Server</h6>
+              <p class="text-left">Boost performance with ultra-fast SSD servers for lightning-quick load times.</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-banner2">
+      <div class="container" style="box-sizing: border-box;">
+        <div class="row  align-items-center">
+          <p class="text-center f-3 f-color-car">Our Best Features</p>
+          <div class="line-container">
+            <span class="straight-line"></span>
+          </div>
+          <div class="con-gaurantee ">
+            <div class="box-gaurantee  align-items-center">
+              <div class="px-5">
+                <img src="images/Free-SSL-B.svg" width="30%" height="20%" alt="..."
+                  class="img-fluid align-items-center">
+              </div>
+              <h6 class="py-2 text-left f-color-car">Free SSL certificate</h6>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-5">
+                <img src="images/support-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-2 text-left f-color-car">24/7 support Guarantee</h6>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-5">
+                <img src="images/ssd-drives-B-1.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-2 text-left f-color-car">SSD drivers for all plans</h6>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-5">
+                <img src="images/latest-speed-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-2 text-left f-color-car">Latest speed technologies</h6>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-5">
+                <img src="images/moststable-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-2 text-left f-color-car">The most stable platform</h6>
+            </div>
+            <div class="box-gaurantee">
+              <div class="px-5">
+                <img src="images/OneClickinstall-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
+              </div>
+              <h6 class="py-2 text-left f-color-car">One click install scripts</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-dummy">
+      <br>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -236,6 +336,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
   </main>
+
   <?php include "footer.php" ?>
 
 </body>

@@ -42,14 +42,21 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-image py-5 px-xl-6">
+        <div class="container-image py-5 ">
+            <div class="row">
+                <!-- <img src="images/13.png" width="100%"> -->
+                <!-- <p>
+                    Dedicated Server
+                </p> -->
+            </div>
         </div>
 
         <div class="container py-3 my-sm-4">
             <div class="row row-cols-xl-2">
                 <div class="table-column"><img src="images/dedicated-server.gif" width="100%"></img></div>
                 <div class="table-column">
-                    <p class="py-1 text-justify">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated Servers provide
+                    <p class="py-1 text-justify">Hosted in an Indian Tier-4 datacenter, our Server Nexgen Dedicated
+                        Servers provide
                         top-tier premium benefits at an unrivaled price with an astounding 99.995% uptime guarantee.
                         Make
                         that the equipment can still operate safely in the case of a mechanical failure. High security
@@ -57,7 +64,8 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         risks
                         of unavailability.</p>
                     <h3>All operating systems are supported:</h3>
-                    <p class="py-1 text-justify">Our premium dedicated servers are perfectly compatible with almost any OS, so if
+                    <p class="py-1 text-justify">Our premium dedicated servers are perfectly compatible with almost any
+                        OS, so if
                         your
                         business requires robust and scalable hardware, you’ve came to the right place. This
                         compatibility
@@ -75,7 +83,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="container py-3">
                 <h3 class="text-center py-3">Dedicated Servers Plans</h3>
                 <div class="table-container">
-                    <div class="row row-cols-xl-7 font-weight-bold table-header">
+                    <!-- <div class="row row-cols-xl-7 font-weight-bold table-header">
                         <div class="table-column">CPU</div>
                         <div class="table-column">CORE</div>
                         <div class="table-column">RAM</div>
@@ -83,7 +91,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <div class="table-column">BANDWIDTH</div>
                         <div class="table-column">PRICE</div>
                         <div class="table-column"></div>
-                    </div>
+                    </div> -->
 
                     <?php if (!empty($plans)): ?>
                         <?php foreach ($plans as $row): ?>
@@ -98,6 +106,7 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 </div>
                                 <div class="table-column">
                                     <a href="checkout.php"><button class="button-div px-0">Order Now</button></a>
+                                </div>
                                 </div>
                             </div>
                         <?php endforeach; ?>

@@ -30,8 +30,7 @@
     <main>
         <div class="container-image py-5 px-xl-6">
         </div>
-
-        <div class="container my-sm-4">
+        <div class="container ">
             <div class="row">
                 <!-- <div class="table-column"> -->
                 <p class="text-left f-4">About</p>

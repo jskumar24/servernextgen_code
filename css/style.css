@@ -21,8 +21,20 @@ body:before {
   z-index: 1;
 }
 
+.box-gaurantee {
+  float: right;
+  width: 21.33%;
+  padding: 20px;
+}
+
+.con-gaurantee::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .footer-h5 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: rgb(13, 202, 240);
 }
 
