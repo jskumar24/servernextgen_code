@@ -245,22 +245,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
           </div>
           <div class="con-gaurantee ">
             <div class="box-gaurantee  align-items-center">
-              <div class="px-5 py-2">
-                <img src="images/moneyback.svg" width="30%" height="20%" alt="..." class="img-fluid align-items-center">
+              <div class="px-3">
+                <img src="images/moneyback.svg" width="50%" height="30%" alt="..." class="img-fluid align-items-center">
               </div>
               <h6 class="py-2 text-left">Money Back Guarantee</h6>
-              <p class="text-left">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
+              <p class="text-center">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
             </div>
             <div class="box-gaurantee">
               <div class="px-3">
-                <img src="images/27_support.svg" width="30%" height="25%" alt="..." class="img-fluid">
+                <img src="images/27_support.svg" width="50%" height="30%" alt="..." class="img-fluid">
               </div>
               <h6 class="py-3 text-left">24/7 Support</h6>
               <p class="text-left">Get expert assistance anytime with our round-the-clock customer support.</p>
             </div>
             <div class="box-gaurantee">
               <div class="px-3">
-                <img src="images/cloudtech.svg" width="30%" height="25%" alt="..." class="img-fluid">
+                <img src="images/cloudtech.svg" width="50%" height="30%" alt="..." class="img-fluid">
               </div>
               <h6 class="py-3 text-left">Cloud Technology</h6>
               <p class="text-left">Experience unmatched scalability and reliability with cutting-edge cloud
@@ -268,7 +268,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </div>
             <div class="box-gaurantee">
               <div class="px-3">
-                <img src="images/fast_ssd_server.svg" width="30%" height="25%" alt="..." class="img-fluid">
+                <img src="images/fast_ssd_server.svg" width="50%" height="30%" alt="..." class="img-fluid">
               </div>
               <h6 class="py-3 text-left">Fast SSD Server</h6>
               <p class="text-left">Boost performance with ultra-fast SSD servers for lightning-quick load times.</p>
@@ -279,53 +279,47 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </div>
 
     <div class="container-banner2">
-      <div class="container" style="box-sizing: border-box;">
-        <div class="row  align-items-center">
-          <p class="text-center f-3 f-color-car">Our Best Features</p>
-          <div class="line-container">
+       <p class="text-center f-3 f-color-car">Our Best Features</p>
+       <div class="line-container">
             <span class="straight-line"></span>
           </div>
-          <div class="con-gaurantee ">
-            <div class="box-gaurantee  align-items-center">
-              <div class="px-5">
-                <img src="images/Free-SSL-B.svg" width="30%" height="20%" alt="..."
-                  class="img-fluid align-items-center">
-              </div>
-              <h6 class="py-2 text-left f-color-car">Free SSL certificate</h6>
+      <div class="container row col-12">
+        <!-- <div class="row row-col-12 align-items-center"> -->          
+          <div class="col-md-2">
+            <img src="images/Free-SSL-B.svg" width="60%" height="25%" alt="..." class="py-3 card-img-top">
+            <h7 class="text-left f-color-car">Free SSL certificate</h7>
+          </div>
+          <div class="col-md-2">
+              <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
             </div>
-            <div class="box-gaurantee">
-              <div class="px-5">
-                <img src="images/support-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-2 text-left f-color-car">24/7 support Guarantee</h6>
+            <h6 class="px-5 text-center f-color-car">24/7 support Guarantee</h6>
+          </div>
+          <div class="col-2 ">
+            <div class="">
+              <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="img-fluid">
             </div>
-            <div class="box-gaurantee">
-              <div class="px-5">
-                <img src="images/ssd-drives-B-1.svg" width="30%" height="25%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-2 text-left f-color-car">SSD drivers for all plans</h6>
+            <h6 class="px-5 text-center f-color-car">SSD drivers for all plans</h6>
+          </div>
+          <div class="col-2 ">
+            <div class="">
+              <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
             </div>
-            <div class="box-gaurantee">
-              <div class="px-5">
-                <img src="images/latest-speed-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-2 text-left f-color-car">Latest speed technologies</h6>
+            <h6 class="px-5 text-center f-color-car">Latest speed technologies</h6>
+          </div>
+          <div class="col-2">
+            <div class="">
+              <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
             </div>
-            <div class="box-gaurantee">
-              <div class="px-5">
-                <img src="images/moststable-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-2 text-left f-color-car">The most stable platform</h6>
+            <h6 class="px-3 text-center f-color-car">The most stable platform</h6>
+          </div>
+          <div class="col-2 ">
+            <div class="">
+              <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="img-fluid">
             </div>
-            <div class="box-gaurantee">
-              <div class="px-5">
-                <img src="images/OneClickinstall-B.svg" width="30%" height="25%" alt="..." class="img-fluid">
-              </div>
-              <h6 class="py-2 text-left f-color-car">One click install scripts</h6>
-            </div>
+            <h6 class="px-5 text-center f-color-car">One click install scripts</h6>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
     <div class="container-dummy">
       <br>
