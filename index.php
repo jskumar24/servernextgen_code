@@ -26,43 +26,29 @@ $current_page = basename($_SERVER['PHP_SELF']);
   <title><?php echo 'ServerNEXgen'; ?></title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <style>
-    /* Custom CSS for the progress bar */
-    .progress {
-      top: 0;
-      left: 0;
-      right: 0;
-      margin-top: 6rem;
-    }
-  </style> -->
 </head>
 
 <body>
   <?php include "header.php" ?>
   <main>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="true" data-interval="5000">
-
+    <div id="myCarousel" class="carousel slide myCarousel" data-ride="carousel" data-interval="false">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/dedicated-hosting.png" alt="First Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
-              <div class="card-car">
-                <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car animated-text-zin">Dedicated Server</h3>
-                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Secure and scalable
-                    dedicated
-                    server hosting to drive your Online success
-                    for a low price.</p>
-                </div>
-              </div>
-              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
+              <h3 class="container-banner-h3-d">Dedicated Server</h3>
+              <p class="container-banner-p " style="text-wrap: wrap;">Secure and
+                scalable
+                dedicated
+                server hosting to drive your Online success
+                for a low price.</p>
+              <button class="container-banner-b button-car"> More Details</button>
             </div>
           </div>
         </div>
@@ -70,15 +56,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
           <img src="images/shared-hosting.png" alt="Second Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
-              <div class="card-car">
-                <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car animated-text-zin">Share hosting</h3>
-                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Secure and scalable dedicated
-                    server hosting
-                    to drive your Online success for a low price.</p>
-                </div>
-              </div>
-              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
+              <h3 class="container-banner-h3">Share Hosting</h3>
+              <p class="container-banner-p" style="text-wrap: wrap;">Secure and
+                scalable dedicated
+                server hosting
+                to drive your Online success for a low price.</p>
+              <button class="container-banner-b button-car"> More Details</button>
             </div>
           </div>
         </div>
@@ -86,21 +69,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
           <img src="images/vps-hosting.png" alt="Third Slide" style="width:100%;">
           <div class="carousel-caption">
             <div class="container px-0 py-0">
-              <div class="card-car">
-                <div class="card-body-car px-0">
-                  <h3 class="card-title-car text-left f-color-car animated-text-zin">VPS</h3>
-                  <p class="card-text-car text-left f-color-car animated-text-sin" style="text-wrap: wrap;">Our expertise is scalable and
-                    easily upgradeable: What Sets Us Apart From
-                    Other Hosting Platforms.</p>
-                </div>
-              </div>
-              <div class="container"><button class="button-car animated-text-zin"> More Details</button></div>
+              <h3 class="container-banner-h3-v">VPS</h3>
+              <p class="container-banner-p" style="text-wrap: wrap;">Secure and
+                scalable dedicated
+                server hosting
+                to drive your Online success for a low price.</p>
+              <button class="container-banner-b button-car"> More Details</button>
             </div>
           </div>
         </div>
       </div>
 
 
+      <hr class="transition-timer-carousel-progress-bar" />
       <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -109,32 +90,42 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-
-      <!-- Progress Bar -->
-      <div class="progress-bar">
-        <div class="progress" style="background-color:#b3b3b3;"></div>
-      </div>
     </div>
 
     <script>
-      let currentIndex = 0;
-      const items = document.querySelectorAll('.carousel-item');
-      const progress = document.querySelector('.progress');
-
-      function showNextSlide() {
-        items[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % items.length;
-        items[currentIndex].classList.add('active');
-        updateProgressBar();
-      }
-
-      function updateProgressBar() {
-        const progressWidth = ((currentIndex + 1) / items.length) * 100;
-        progress.style.width = progressWidth + '%';
-      }
-
-      setInterval(showNextSlide, 3000);
+      $(document).ready(function () {
+        var percent = 0,
+          interval = 38,//it takes about 6s, interval=20 takes about 4s
+          $bar = $('.transition-timer-carousel-progress-bar'),
+          $crsl = $('#myCarousel');
+        // $('.carousel-indicators li, .carousel-control').click(function () { $bar.css({ width: 0.5 + '%' }); });
+        /*line above just for showing when controls are clicked the bar goes to 0.5% to make more friendly, 
+        if you want when clicked set bar empty, change on width:0.5 to width:0*/
+        // $crsl.carousel({//initialize
+        //   interval: false,
+        //   pause: true
+        // }).on('slide.bs.carousel', function () { percent = 0; });//This event fires immediately when the bootstrap slide instance method is invoked.
+        function progressBarCarousel() {
+          $bar.css({ width: percent + '%' });
+          percent = percent + 0.5;
+          if (percent >= 100) {
+            percent = 0;
+            $crsl.carousel('next');
+          }
+        }
+        var barInterval = setInterval(progressBarCarousel, interval);//set interval to progressBarCarousel function
+        if (!(/Mobi/.test(navigator.userAgent))) {//tests if it isn't mobile
+          $crsl.hover(function () {
+            clearInterval(barInterval);
+          },
+            function () {
+              barInterval = setInterval(progressBarCarousel, interval);
+            }
+          );
+        }
+      }); 
     </script>
+
 
     <div class="container-banner1">
       <div class="container">
@@ -205,7 +196,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
       </div>
     </div>
-
     <div class="container-banner2">
       <div class="container py-5 my-sm-4">
         <div class="row">
@@ -235,109 +225,72 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
       </div>
     </div>
-
-
+    <div class="container mb-4"> </div>
     <div class="container-banner1">
-      <div class="container">
-        <div class="row-guarantee1">
-          <p class="py-2 text-center f-3">ServerNEXgen Guarantees</p>
+      <div class="container mb-4">
+        <div class="row">
+          <p class="text-center f-3">ServerNEXgen Guarantees</p>
           <div class="line-container">
             <span class="straight-line"></span>
           </div>
-
-          <div class="column-guarantee1">
-            <div class="card-guarantee1">
-              <img src="images/fast_ssd_server.svg" width="35%" height="30%" alt="..." class="py-2">
-              <h3 class="f-1">Fast SSD Server</h3>
-              <p class="text-center">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
-            </div>
+          <div class="col">
+            <img src="images/moneyback.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1">Money Back Guarantee</h3>
+            <p class="text-left">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
           </div>
-
-          <div class="column-guarantee1">
-            <div class="card-guarantee1">
-              <img src="images/cloudtech.svg" width="35%" height="30%" alt="..." class="py-2">
-              <h3 class="f-1">Cloud Technology</h3>
-              <p class="text-center">Experience unmatched scalability and reliability with cutting-edge cloud
-                infrastructure.</p>
-            </div>
+          <div class="col">
+            <img src="images/27_support.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1">24/7 Support</h3>
+            <p class="text-left">Get expert assistance anytime with our round-the-clock customer support.</p>
           </div>
-
-          <div class="column-guarantee1">
-            <div class="card-guarantee1">
-              <img src="images/27_support.svg" width="35%" height="30%" alt="..." class="py-2">
-              <h3 class="f-1">24/7 Support</h3>
-              <p class="text-center">Get expert assistance anytime with our round-the-clock customer support.</p>
-            </div>
+          <div class="col">
+            <img src="images/cloudtech.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1">Cloud Technology</h3>
+            <p class="text-left">Experience unmatched scalability and reliability with cutting-edge cloud
+              infrastructure.</p>
           </div>
-
-          <div class="column-guarantee1">
-            <div class="card-guarantee1">
-              <img src="images/moneyback.svg" width="25%" height="20%" alt="..." class="py-2">
-              <h3 class="f-1">Money Back Guarantee</h3>
-              <p class="text-center">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
-            </div>
+          <div class="col">
+            <img src="images/fast_ssd_server.svg" width="35%" height="30%" alt="..." class="py-2">
+            <h3 class="f-1">Fast SSD Server</h3>
+            <p class="text-left">Enjoy peace of mind with our hassle-free money-back guarantee on all plans.</p>
           </div>
-
         </div>
       </div>
     </div>
-
+    <div class="container mb-4"> </div>
     <div class="container-banner2">
-      <div class="row-guarantee">
-
-        <p class="py-2 text-center f-3 f-color-car">Our Best Features</p>
-        <div class="line-container">
-          <span class="straight-line"></span>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/Free-SSL-B.svg" width="25%" height="20%" alt="..." class="py-2">
+      <div class="container mb-4">
+        <div class="row">
+          <p class="text-center f-3 f-color-car">Our Best Features</p>
+          <div class="line-container">
+            <span class="straight-line"></span>
+          </div>
+          <div class="col">
+            <img src="images/Free-SSL-B.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">Free SSL certificate</h3>
           </div>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/support-B.svg" width="35%" height="30%" alt="..." class="py-2">
+          <div class="col">
+            <img src="images/support-B.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">24/7 support Guarantee</h3>
           </div>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/ssd-drives-B-1.svg" width="35%" height="30%" alt="..." class="py-2">
+          <div class="col">
+            <img src="images/ssd-drives-B-1.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">SSD drivers for all plans</h3>
           </div>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/latest-speed-B.svg" width="35%" height="30%" alt="..." class="py-2">
+          <div class="col">
+            <img src="images/latest-speed-B.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">Latest speed technologies</h3>
           </div>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/moststable-B.svg" width="35%" height="30%" alt="..." class="py-2">
+          <div class="col">
+            <img src="images/moststable-B.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">The most stable platform</h3>
           </div>
-        </div>
-
-        <div class="column-guarantee">
-          <div class="card-guarantee">
-            <img src="images/OneClickinstall-B.svg" width="35%" height="30%" alt="..." class="py-2">
+          <div class="col">
+            <img src="images/OneClickinstall-B.svg" width="60%" height="40%" alt="..." class="py-2">
             <h3 class="f-1 f-color-car">One click install scripts</h3>
           </div>
         </div>
-
       </div>
-    </div>
-
-
-    <div class="container-dummy">
-      <br>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>

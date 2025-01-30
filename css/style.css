@@ -72,25 +72,47 @@ body:before {
 .animated-text-zin {
   display: grid inline-block;
   /* font-size: 1.1rem; */
-  animation: zoomIn 4s;
+  animation: zoomIn 2s;
 }
 
 .animated-text-zout {
   display: grid inline-block;
   /* font-size: 1.1em; */
-  animation: zoomOut 2s ease-in-out;
+  animation: zoomOut 4s ease-in-out;
 }
 
 .animated-text-sin {
   display: grid inline-block;
   /* font-size: 1.1em; */
-  animation: slideIn 2s ease-in-out;
+  animation: slideIn 1.5s ease-in-out;
 }
 
 .animated-text-sout {
   display: grid inline-block;
   /* font-size: 1.1em; */
-  animation: slideOut 2s ease-in-out;
+  animation: slideOut 2.5s ease-in-out;
+}
+
+.zoom-in-out-box {
+  /* margin: 24px;
+  width: 50px;
+  height: 50px; */
+  /* background: #f50057; */
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(.2, .2);
+  }
+
+  50% {
+    transform: scale(.5, .5);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 .box-gaurantee {

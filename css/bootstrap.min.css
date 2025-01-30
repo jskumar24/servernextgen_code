@@ -302,11 +302,14 @@ button {
 
 .button-car {
   width: 12%;
-  /* padding: 10px 20px; */
+  /* padding: 10px 20px; 191970 */
   /* padding-left: 0px; */
   border-radius: 25px;
-  height: 10.9%;
+  height: 9.5%;
+  border: 2px solid #0dcaf0;
+  background-color: #0c3587; 
   border-color: #0dcaf0;
+  color: #fff;
   transition: background-color 0.5s ease;
   font-size: 1rem;
   text-align: center;
@@ -353,6 +356,10 @@ button {
 
 .f-5 {
   font-size: 3rem;
+}
+
+.f-6 {
+  font-size: 3.5rem;
 }
 
 .f-color {
@@ -748,19 +755,15 @@ pre code {
   background-image: url("../images/footer_bg.png");
 }
 
-.container-header-banner {
+.container-banner3 {
   width: 100%;
-  /* padding-top: 10rem; */
-  /* padding-bottom: -10rem; */
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
-  /* background: #464679; */
-  text-align: center;
-  background-image: url("../images/footer_bg.png");
+  /* background-color: #dde5ea; */
+  background-image: url("../images/hero_banner.PNG");
 }
-
 
 .container {
   width: 100%;
@@ -792,13 +795,95 @@ pre code {
   padding-right: 10px;
 }
 
+.container-header-banner {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-header-banner img {
+  width: 100em;
+  height: 20em;
+}
+
+.container-header-banner-h1 {
+  position: absolute;
+  color: #fff;
+  margin-top: -9rem !important;
+  margin-left: 50rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.container-header-banner-p {
+  position: absolute;
+  color: #fff;
+  margin-top: -6rem !important;
+  margin-left: 50rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.container-banner-h3 {
+  position: absolute;
+  color: #fff;
+  margin-top: 6rem !important;
+  margin-left: 38rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.container-banner-h3-v {
+  position: absolute;
+  color: #fff;
+  margin-top: 6rem !important;
+  margin-left: 32rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.container-banner-h3-d {
+  position: absolute;
+  color: #fff;
+  margin-top: 6rem !important;
+  margin-left: 40rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-size: 2.5em;
+  animation: reverse;
+}
+
+.container-banner-p {
+  position: absolute;
+  color: #fff;
+  margin-top: 9rem !important;
+  margin-left: 50rem !important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.container-banner-b {
+  position: absolute; 
+  margin-top: 12.5rem !important;
+  margin-left: -5rem !important; 
+  transform: translate(-50%, -50%);
+}
+
 .container1 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background: #ececec;
+  /* background: #ececec; */
 }
 
 .container-image {
@@ -7512,8 +7597,8 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-  /* background-color: #191970; */
-  background-color: #274472;
+  background-color: #0F094B;
+  /* background-color: #274472; */
 }
 
 .carousel-inner::after {
@@ -7535,6 +7620,17 @@ a.close.disabled {
   -o-transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.transition-timer-carousel-progress-bar {
+  height: 9px;
+  background-color: #191970;
+  /*progress bar color*/
+  width: 0;
+  margin: 0 0 0 0;
+  border: none;
+  z-index: 11;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -7726,13 +7822,14 @@ a.close.disabled {
 
 .card-title-car {
   margin-bottom: 10px;
+  margin-left: -10px;
 }
 
 .card-car {
-  width: 25%;
+  width: 50%;
   /* Full width of the item container */
   margin-top: 20px;
-  margin-left: 600px;
+  margin-left: 500px;
 }
 
 .card-body-car {

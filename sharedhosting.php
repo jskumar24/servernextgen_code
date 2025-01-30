@@ -43,7 +43,12 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-image py-5 px-xl-6">
+        <div class="container-header-banner ">
+            <img src="images/hero_banner.PNG" alt="...">
+            <div class="row"> 
+                <p class="container-header-banner-h1">Shared Web Hosting</p>
+                <p class="container-header-banner-p text-center f-color-car">Server Nexgen Dedicated Servers offer top-tier premium services</p>
+            </div>
         </div>
 
         <div class="container px-1">

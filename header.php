@@ -23,6 +23,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 <body>
   <header class="site-navbar" role="banner">
+    <!-- <div class="container <?php echo ($current_page == 'index.php') ? 'container' : 'container-header-banner'; ?>"> -->
     <div class="container">
       <div class="row align-items-center">
         <div class="col-11 col-xl-2">
@@ -63,6 +64,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
       </div>
     </div>
+
   </header>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>

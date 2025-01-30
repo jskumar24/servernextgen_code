@@ -35,7 +35,13 @@ $unreadMails = 7;
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-image py-5 px-xl-6">
+        <div class="container-header-banner ">
+            <h1 class=" ">Shipping and Delivery</h1> 
+            <img src="images/hero_banner.PNG" alt="...">
+            <div class="row"> 
+                <p class="container-header-banner-h1">Shipping and Delivery</p>
+                <!-- <p class="container-header-banner-p text-center f-color-car">Server Nexgen Dedicated Servers offer top-tier premium services</p> -->
+            </div>
         </div>
 
 

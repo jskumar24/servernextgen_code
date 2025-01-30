@@ -42,12 +42,11 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <?php include "header.php"; ?>
     <main>
-        <div class="container-image py-5 ">
-            <div class="row">
-                <!-- <img src="images/13.png" width="100%"> -->
-                <!-- <p>
-                    Dedicated Server
-                </p> -->
+        <div class="container-header-banner ">
+            <img src="images/hero_banner.PNG" alt="...">
+            <div class="row"> 
+                <p class="container-header-banner-h1">Dedicated Server</p>
+                <p class="container-header-banner-p text-center f-color-car">Server Nexgen Dedicated Servers offer top-tier premium services</p>
             </div>
         </div>
 
@@ -107,14 +106,14 @@ $plans = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <div class="table-column">
                                     <a href="checkout.php"><button class="button-div px-0">Order Now</button></a>
                                 </div>
-                                </div>
                             </div>
-                        <?php endforeach; ?>
-                    <?php else: ?>
-                        <p class="text-center">No results found</p>
-                    <?php endif; ?>
-                </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <p class="text-center">No results found</p>
+                <?php endif; ?>
             </div>
+        </div>
     </main>
     <?php include "footer.php"; ?>
 </body>
